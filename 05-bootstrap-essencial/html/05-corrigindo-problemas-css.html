@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title> Determinar Layouts diferentes com Grid </title>
+        
+        <!-- libs / css -->
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/05-corrigindo-problemas-css.css">
+    </head>
+    <body>
+        <!-- Digite abaixo seu codigo -->
+        
+        <div class="container-fluid">
+            
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <img class="icone" src="../imagens/icone_adobe_muse_grande.png" alt="muse">
+                <h1> Adobe Muse </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula iaculis nibh
+                    consectetur adipiscing elit. Proin vehicula iaculis nibh </p>
+            </div> 
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <img class="icone" src="../imagens/icone_adobe_portfolio_grande.png" alt="portfolio">
+                <h1> Adobe Portfolio </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula iaculis nibh </p>
+            </div>
+            
+            <!-- Adicionando "cleafix" para resolver problemas de float em caso de conteudos de tamanhos diferentes -->
+            <!-- "clearfix small" = Depois da segunda div -->
+            <div class="clearfix visible-sm-block"></div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <img class="icone" src="../imagens/icone_aftereffects_grande.png" alt="after_effects">
+                <h1> Adobe After Effects </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula iaculis nibh </p>
+            </div>
+            
+            <!-- Adicionando "cleafix" para resolver problemas de float em caso de conteudos de tamanhos diferentes -->
+            <!-- "clearfix medium" = Depois da terceira div -->
+            <div class="clearfix visible-md-block"></div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <img class="icone" src="../imagens/icone_css_grande.png" alt="css">
+                <h1> CSS 3 </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula iaculis nibh </p>
+            </div> 
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <img class="icone" src="../imagens/icone_html_grande.png" alt="html">
+                <h1> HTML 5 </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula iaculis nibh </p>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <img class="icone" src="../imagens/icone_google_adwords_grande.png" alt="adwords">
+                <h1> Google Adwords </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula iaculis nibh </p>
+            </div>                
+        </div>
+        
+        <!-- libs / js -->
+        <script src="../libs/jquery/jquery.js"></script>
+        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

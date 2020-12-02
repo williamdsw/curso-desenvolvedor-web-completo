@@ -1,0 +1,10 @@
+
+#janela
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to top, red, green);
+}

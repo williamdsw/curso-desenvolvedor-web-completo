@@ -1,0 +1,36 @@
+/* 
+    Created on : 31/03/2019, 18:41:59
+    Author     : William
+*/
+
+html  { background-color: #EFEFEF; }
+
+/* Tira margin default */
+body  { margin: 0; }
+
+#principal 
+{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #9C3;
+    padding: 10px;
+}
+
+/* Adaptando para nao "quebrar" em caso de varios elementos "*/
+#principal:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.janela 
+{
+    float: left;
+    width: 350px;
+    background-color: #FC3;
+    padding: 5px;
+    margin: 5px;
+}
+
+p  { margin: 0; }

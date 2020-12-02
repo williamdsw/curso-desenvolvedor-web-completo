@@ -1,0 +1,23 @@
+/* 
+    Created on : 25/03/2019, 11:30:10
+    Author     : William
+*/
+
+/* Estilo do figure */
+figure
+{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eff2f5;
+}
+
+/* Estilo do figcaption */
+figcaption
+{
+    background-color: #e5e8ea;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}

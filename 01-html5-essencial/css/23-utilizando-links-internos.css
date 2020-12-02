@@ -1,0 +1,63 @@
+/* 
+    Created on : 25/03/2019, 11:30:10
+    Author     : William
+*/
+
+/* */
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Header principal */
+h1 
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    color: #ad0f0f;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 1px #666;
+}
+
+/* Header secundario */
+h3 
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #f00;
+    text-shadow: 1px 1px 1px #afafaf;
+}
+
+/* secao de links */
+section
+{
+    background-color: darkred;
+    padding: 16px;
+    box-shadow: 2px 2px;
+    margin-bottom: 100px;
+}
+
+/* Link da sessao */
+section a
+{
+    font-size: 16px;
+    color: white;
+    font-variant-caps: all-small-caps;
+    padding: 2px;
+}
+
+/* Paragrafo, Lista */
+p, li 
+{
+    color:#333;
+    margin-bottom:5px;
+}
+
+/* Rodape */
+footer 
+{
+    height:350px;	
+}

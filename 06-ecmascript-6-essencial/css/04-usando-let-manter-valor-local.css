@@ -1,0 +1,15 @@
+/* 
+    Created on : 04/04/2019 11:00
+    Author     : William
+*/
+
+section div 
+{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}

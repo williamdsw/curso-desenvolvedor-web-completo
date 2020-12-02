@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Adicionando Placeholder e Autofocus </title>
+        <link rel="stylesheet" type="text/css" href="../css/38-adicionando-placeholder-autofocus.css" media="screen">
+    </head>
+    <body>
+        <h2> Formulario </h2>
+        
+        <form action="#" method="post">
+            
+            <label for="txt_nome"> Nome Completo: </label>
+            <!-- "placeholder"  = informa um texto que indica o que o usuario pode fazer -->
+            <!-- "autofocus"    = informa que o focus do carregamento da pagina caira sobre o input -->
+            <input type="text" id="txt_nome" name="nome" size="30" maxlength="100" 
+                   placeholder="Insira seu nome" autofocus required>
+            
+            <!-- tel -->
+            <label for="tel_telefone"> Telefone: </label>
+            <input type="tel" id="tel_telefone" name="telefone" size="20" maxlength="30" 
+                   placeholder="Insira seu telefone">
+            
+            <!-- email -->
+            <label for="txt_email"> Email: </label>
+            <input type="email" id="txt_email" name="email" size="30" maxlength="60" 
+                   placeholder="Insira seu email" required>
+            
+            <!-- website -->
+            <label for="url_website"> Web Site: </label>
+            <input type="url" id="url_website" name="website" size="30" maxlength="60" 
+                   placeholder="Insira seu web site">
+            
+            <!-- submit -->
+            <input type="submit" id="btn_enviar" value="Enviar">
+        </form>
+    </body>
+</html>

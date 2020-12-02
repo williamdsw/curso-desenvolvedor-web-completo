@@ -1,0 +1,17 @@
+/* 
+    Created on : 25/03/2019, 22:16:27
+    Author     : William
+*/
+
+ul 
+{ 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+li 
+{ 
+    display: inline-block; 
+    margin-right: 10px; 
+}

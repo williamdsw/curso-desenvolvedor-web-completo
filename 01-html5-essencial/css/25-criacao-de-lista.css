@@ -1,0 +1,96 @@
+/* 
+    Created on : 25/03/2019, 11:30:10
+    Author     : William
+*/
+
+body { font-family: sans-serif; font-size: 20px; }
+
+/* armenian: com simbolos armenios */
+#list_armenian li
+{
+    list-style-type: armenian;
+}
+
+/* circle: circulo */
+#list_circle li
+{
+    list-style-type: circle;
+}
+
+/* decimal: numero decimal */
+#list_decimal li
+{
+    list-style-type: decimal;
+}
+
+/* decimal leading zero: numero decimal com zero a esquerda */
+#list_decimal_leading_zero li
+{
+    list-style-type: decimal-leading-zero;
+}
+
+/* disc: com disco, default */
+#list_disc li
+{
+    list-style-type: disc;
+}
+
+/* georgian: simbolo georgiano */
+#list_georgian li
+{
+    list-style-type: georgian;
+}
+
+/* lower-alpha: minusculo */
+#list_lower_alpha li
+{
+    list-style-type: lower-alpha;
+}
+
+/* lower-greek: alfabeto grego minusculo */
+#list_lower_greek li
+{
+    list-style-type: lower-greek;
+}
+
+/* lower-latin: alfabeto latin minusculo */
+#list_lower_latin li
+{
+    list-style-type: lower-latin;
+}
+
+/* lower-roman: alfabeto romano minusculo */
+#list_lower_roman li
+{
+    list-style-type: lower-roman;
+}
+
+/* square: quadrado */
+#list_square li
+{
+    list-style-type: square;
+}
+
+/* upper-alpha: alfabeto maiusculo */
+#list_upper_alpha li
+{
+    list-style-type: upper-alpha;
+}
+
+/* upper-latin: alfabeto latin maiusculo */
+#list_upper_latin li
+{
+    list-style-type: upper-latin;
+}
+
+/* upper-roman: alfabeto romano maiusculo */
+#list_upper_roman li
+{
+    list-style-type: upper-roman;
+}
+
+/* list-style-image: indica a url de uma imagem para os itens */
+#list_image
+{
+    list-style-image: url("../imagens/estrela.png");
+}

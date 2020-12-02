@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Criar Formulários Inline </title>
+
+        <!-- libs / css -->
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/17-criar-formularios-inline.css">
+    </head>
+    <body>
+        <!-- Digite abaixo seu codigo -->
+        <div class="container">
+            <form>
+                
+                <!-- "form-inline" = Classe que permite criar um form com campos lado a lado -->
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="txtNome" class="sr-only"> Nome </label>
+                        <input type="text" id="txtNome" class="form-control" placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="txtEmail" class="sr-only"> Email </label>
+                        <input type="email" id="txtEmail" class="form-control" placeholder="Seu email">
+                    </div>  
+
+                    <div class="checkbox">
+                        <label for="chkLista">
+                            <input type="checkbox" id="chkLista"> Inscrever-me na newsletter
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary"> Cadastrar-me </button>     
+                </div>
+            </form>
+        </div>
+        <!-- Fim do seu codigo -->
+
+        <!-- libs / js -->
+        <script src="../libs/jquery/jquery.js"></script>
+        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

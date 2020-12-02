@@ -1,0 +1,79 @@
+/* 
+    Created on : 31/03/2019, 18:41:59
+    Author     : William
+*/
+
+body 
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+#menu 
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#menu ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li 
+{
+    float: left;
+    position: relative;
+}
+
+/* Menu horizontal principal */
+#menu ul li a 
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border: 1px solid darkgray;
+    margin-right: -5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* Submenu */
+#menu ul li ul 
+{
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+}
+
+/* Itens do submenu */
+#menu ul li ul li a 
+{
+    width: 100px;
+    margin-top: -1px;
+    font-weight: lighter;
+}
+
+#menu ul li ul li a:hover  
+{
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+/* PULO DO GATO!!  Faz aparecer o menu */
+#menu li:hover ul 
+{
+    display: block;
+}
+
+/* Alterar a cor de background dos itens do menu */
+#menu ul li a:hover 
+{
+    background-color: #ddd;
+}

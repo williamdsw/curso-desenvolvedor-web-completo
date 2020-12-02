@@ -1,0 +1,12 @@
+/* 
+    Created on : 25/03/2019, 22:16:27
+    Author     : William
+*/
+
+#janela 
+{ 
+    width: 500px; 
+    height: 1000px; 
+    background-color: #069; 
+    border: 5px solid #000;
+}

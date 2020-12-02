@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Adicionando um Campo Numerico </title>
+        <link rel="stylesheet" type="text/css" href="../css/39-adicionando-campo-numerico.css" media="screen">
+    </head>
+    <body>
+        <h2> Formulario </h2>
+        <form action="#" method="post">
+            
+            <!-- nome -->
+            <label for="txt_nome"> Nome Completo: </label>
+            <input type="text" id="txt_nome" name="nome" size="30" maxlength="100" 
+                   placeholder="Insira seu nome" autofocus required>
+            
+            <!-- telefone -->
+            <label for="tel_telefone"> Telefone: </label>
+            <input type="tel" id="tel_telefone" name="telefone" size="20" maxlength="30" 
+                   placeholder="Insira seu telefone">
+            
+            <!-- email -->
+            <label for="txt_email">Email:</label>
+            <input type="email" id="txt_email" name="email" size="30" maxlength="60" 
+                   placeholder="Insira seu email" required>
+            
+            <!-- web site -->
+            <label for="url_website">Web Site:</label>
+            <input type="url" id="url_website" name="website" size="30" maxlength="60" 
+                   placeholder="Insira seu web site">
+            
+            <!-- "number" = indica que o campo sera de valor numerico -->
+            <!--  "min"   = indica um valor numerico minimo -->
+            <!--  "max"   = indica um valor numerico maximo -->
+            <!--  "value" = indica um valor atual do campo -->
+            <label for="num_filhos">Numero de filhos:</label>
+            <input type="number" id="num_filhos" name="filhos" min="1" max="5" value="1">
+            
+            <!-- submit -->
+            <input type="submit" id="btn_enviar" value="Enviar">
+        </form>
+    </body>
+</html>

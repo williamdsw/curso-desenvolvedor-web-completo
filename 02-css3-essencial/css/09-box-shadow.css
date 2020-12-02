@@ -1,0 +1,12 @@
+
+#janela 
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: #FFC;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 5px 5px #999;
+}

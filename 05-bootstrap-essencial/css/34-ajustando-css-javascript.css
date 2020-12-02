@@ -1,0 +1,10 @@
+/* 
+    Created on : 02/04/2019, 09:25:11
+    Author     : William
+*/
+
+/* Controlando altura maxima */
+div.carousel-inner
+{
+    max-height: 500px;
+}

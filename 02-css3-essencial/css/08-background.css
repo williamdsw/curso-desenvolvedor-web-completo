@@ -1,0 +1,19 @@
+
+body
+{ 
+    /* background-image : define uma imagem de fundo pela "url" 
+     * background-repeat: define se a imagem ira repetir ou nao
+     * background-attachment: define se a imagem vai "seguir" o scroll */
+    background-image: url("../imagens/x_face.png");
+    background-repeat: repeat;
+    width: 200%;
+}
+
+div
+{
+    background-image: url("../imagens/zero_face.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100px;
+    height: 100px;
+}

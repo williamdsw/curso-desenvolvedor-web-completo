@@ -1,0 +1,41 @@
+/* 
+    Created on : 31/03/2019, 18:41:59
+    Author     : William
+*/
+
+body 
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+nav ul 
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* "display: inline" = Deixa a lista horizontal */
+nav ul li 
+{
+    list-style-type: none;
+    display: inline;
+}
+
+/* Define estilo do a */
+nav ul li a 
+{
+    display: inline-block;
+    width: 100px;
+    padding: 10px 30px;
+    margin-right: -3px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+nav ul li a:hover 
+{
+    background-color: darkslateblue;
+}

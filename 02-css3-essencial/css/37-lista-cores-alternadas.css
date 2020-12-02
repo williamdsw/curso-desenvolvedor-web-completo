@@ -1,0 +1,32 @@
+/* 
+    Created on : 31/03/2019, 18:41:59
+    Author     : William
+*/
+
+body 
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+ul 
+{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li
+{
+    width: 200px;
+    padding: 5px;
+    background-color: #ddd;
+    margin-bottom: 1px;
+}
+
+/* "li:nth-child(3n)" = Nesse caso aplicando a cada 3 elementos */
+li:nth-child(3n)
+{
+    background-color: #ccc;
+    font-weight: bold;
+}

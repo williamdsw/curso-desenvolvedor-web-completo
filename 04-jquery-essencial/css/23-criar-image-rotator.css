@@ -1,0 +1,30 @@
+/* 
+    Created on : 25/03/2019, 22:16:27
+    Author     : William
+*/
+
+#principal 
+{
+    position: absolute; 
+    height: 200px; 
+    clip: rect(0 200px 200px 0); 
+}
+
+#janela 
+{ 
+    position: relative; 
+    height: 200px; 
+    top: 0;
+    left: 0;
+}
+
+#janela img 
+{
+    float: left;
+}
+
+#info 
+{
+    position: absolute; 
+    top: 300px;
+}

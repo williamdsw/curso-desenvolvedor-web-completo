@@ -1,0 +1,76 @@
+/* 
+    Created on : 31/03/2019, 18:41:59
+    Author     : William
+*/
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background: rgb(229,229,229);
+}
+
+article, aside, section, header, footer, nav 
+{
+    display: block;
+}
+
+main 
+{
+    /* Adicionados */
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #333;
+    background-color: #fff;
+}
+
+header 
+{
+    /* Adicionados */
+    width: 960px;
+    height: 110px;
+    background-color: #ff7f00;
+}
+
+nav 
+{
+    /* Adicionados */
+    width: 960px;
+    height: 40px;
+    background-color: #b28500;
+}
+
+.conteudo 
+{
+    /* Adicionados */
+    float: left;
+    width: 640px;
+    height: 350px;
+    background-color: #ffd24d;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.apoio 
+{
+    /* Adicionados */
+    float: right;
+    width: 310px;
+    height: 350px;
+    background-color: #dddddd;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+footer 
+{
+    /* Adicionados */
+    clear: both;
+    width: 960px;
+    height: 60px;
+    background-color: #999999;
+}

@@ -1,0 +1,72 @@
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+table
+{ 
+    width: 700px;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+caption 
+{
+    font-size: 130%;
+    font-weight: bold;
+    padding: 5px 0;
+    background-color: #ECECEC;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+tr, td, th 
+{
+    border: thin solid #ccc;
+    border-bottom: none;
+    border-right: none;
+    padding: 5px;
+}
+
+td { text-align: center; }
+th { text-align: left; }
+
+thead th { text-align: center; background-color: #E0E0E0; }
+thead tr th:first-child { text-align: left; }
+tfoot td { font-size: .9em; color: #666; }
+
+/* nth-child = (nonesimo filho do tipo ) (odd = impar) (even = par)*/
+tbody tr:nth-child(odd)
+{
+    background-color: #ddd;
+}
+
+/* Estilo do cabecalho */
+thead
+{
+    font-weight: bold;
+}
+
+/* Estilo de uma coluna */
+.coluna_cinza
+{
+    background-color: #f0f0f0;
+}
+
+/* Estilo de outra coluna */
+.coluna_dourada
+{
+    background-color: #FFD700;
+}
+
+/* Estilo de outra coluna */
+.coluna_prateada
+{
+    background-color: #c0c0c0 ;
+}
+
+/* Estilo de outra coluna */
+.coluna_bronzeada
+{
+    background-color: #cd7f32;
+}

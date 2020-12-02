@@ -1,0 +1,17 @@
+/* 
+    Created on : 02/04/2019, 09:25:11
+    Author     : William
+*/
+
+p, h1 
+{ 
+    text-align: center; 
+    font-family: Arial,sans-serif;
+}
+
+img.icone 
+{
+    display: block;
+    max-width: 150px; 
+    margin:0 auto; 
+}

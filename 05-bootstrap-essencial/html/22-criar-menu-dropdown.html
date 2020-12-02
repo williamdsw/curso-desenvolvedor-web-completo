@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Criar Menu Dropdown </title>
+
+        <!-- libs / css -->
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- Digite abaixo seu codigo -->
+        <div class="container">
+
+            <!-- "dropdown" = Classe que aplica um menu dropdown -->
+            <div class="dropdown">
+                
+                <!-- "id='menu'" = Sera referenciado na ul -->
+                <!-- "data-toggle", "aria-haspopup", "aria-expanded" = Atributos necessarios -->
+                <button type="button" id="menu" class="btn btn-primary"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> 
+                    Menu Principal 
+                    
+                    <!-- "caret' = Classe que representa uma seta para baixo -->
+                    <span class="caret"></span>
+                </button>
+                
+                <!-- "dropdown-menu" = Classe que transforma o elemento em dropdown -->
+                <!-- "aria-labelledby" = Atributo necessario -->
+                <ul class="dropdown-menu" aria-labelledby="menu">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Info </a></li>
+                    <li><a href="#"> Special Events </a></li>
+                    
+                    <!-- "divider" = Classe que representa um divisor na lista -->
+                    <!-- "role" = Atributo necessario -->
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#"> DVD </a></li>
+                    <li><a href="#"> Location </a></li>
+                    <li><a href="#"> Menu </a></li>
+                    <li><a href="#"> Review </a></li>
+                </ul>    
+            </div>
+        </div>
+        <!-- Fim do seu codigo -->
+
+        <!-- libs / js -->
+        <script src="../libs/jquery/jquery.js"></script>
+        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

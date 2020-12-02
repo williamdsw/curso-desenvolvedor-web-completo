@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <title> Utilizando JavaScript </title>
+        <meta charset="utf-8">
+        
+        <style>
+            body
+            {
+                background-color: cadetblue;
+                color: azure;
+                font-family: monospace;
+            }
+        </style>
+        
+        <script>
+            /* definindo funcao */
+            function definirNome ()
+            {
+                /* definindo texto interno ja pelo id */
+                nome.innerHTML = "Curso de HTML 5 Essencial";
+            }
+            
+            /* window.onload = quando a pagina carregar */
+            window.onload = definirNome;
+        </script>
+    </head>
+    <body>
+        
+        <!-- paragrafo com id -->
+        <p id="nome"></p>
+    </body>
+</html>

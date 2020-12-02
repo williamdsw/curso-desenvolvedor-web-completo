@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Aplicar Bootstrap para Otimizar Formulários </title>
+
+        <!-- libs / css -->
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- Digite abaixo seu codigo -->
+        
+        <div class="container">
+            <form>
+                
+                <!-- "form-group" = Classe que indica um conjunto de campos de formulario -->
+                <div class="form-group">
+                    <label for="txtNome"> Nome Completo </label>
+                    
+                    <!-- "form-control" = Classe que aplica estilo para campos de formulario -->
+                    <input type="text" id="txtNome" class="form-control" placeholder="Nome"/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="txtEmail"> Email </label>
+                    <input type="text" id="txtEmail" class="form-control" placeholder="Email"/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="txtSenha"> Senha </label>
+                    <input type="password" id="txtSenha" class="form-control" placeholder="Senha"/>  
+                </div>
+                
+                <div class="form-group">
+                    <label for="sltSelecao"> Prato preferido? </label>
+                    <select id="sltSelecao" class="form-control">
+                        <option> Escolha uma opção </option>
+                        <option> Feijoada </option>
+                        <option> Churrasco </option>
+                        <option> Sushi </option>
+                        <option> Pizza </option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="txtComentario"> Comentários </label>
+                    <textarea id="txtComentario" class="form-control"></textarea>
+                </div>
+                
+                <div class="checkbox">
+                    <label for="chkLista">
+                        <input type="checkbox" id="chkLista"> Inscrever-me na newsletter
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary pull-right" value="Enviar">
+                </div>
+            </form>
+        </div>
+        
+        <!-- Fim do seu codigo -->
+
+        <!-- libs / js -->
+        <script src="../libs/jquery/jquery.js"></script>
+        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

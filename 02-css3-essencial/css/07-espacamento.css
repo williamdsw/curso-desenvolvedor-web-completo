@@ -1,0 +1,9 @@
+
+/* letter-spacing: espacamento entre as letras do texto 
+ * word-spacing: espacamento entre as palavras do texto */
+h1 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    word-spacing: 0.25em;
+}

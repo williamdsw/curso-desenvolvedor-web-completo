@@ -1,0 +1,70 @@
+/* 
+    Created on : 31/03/2019, 18:41:59
+    Author     : William
+*/
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+html 
+{
+    background: rgb(229,229,229);
+}
+
+article, aside, section, header, footer, nav 
+{
+    display: block;
+}
+
+main 
+{
+    width: 600px;
+    background-color: rgb (255,255,255);
+    margin: 2em auto;
+}
+
+div 
+{
+    margin-bottom: 1em;
+    margin-right: 2em;
+    width: 150px;
+    height: 50px;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.janela1 
+{ 
+    background-color: rgb(0,153,204);
+    float: right;
+    height: 200px;
+}
+.janela2 
+{ 
+    background-color: rgb(255,204,51); 
+    float: left;
+    height: 250px;
+}
+
+/* "clear" = Propriedade que define que nenhum elemento a esquerda ou direita (ou ambos) pode ficar ao lado 
+ * "left" = Nenhum elemento a esquerda 
+ * "right" = Nenhum elemento a direita 
+ * "both" = Nenhum elemento em ambas direcoes */
+
+.janela3 
+{ 
+    background-color: rgb(153,204,51); 
+    clear: both;
+}
+
+.janela4 
+{ 
+    background-color: rgb(255,102,51); 
+    clear: left; 
+}
+
+.janela5 { background-color:rgb(153,51,204); }
+.janela6 { background-color:rgb(255,102,255); }
