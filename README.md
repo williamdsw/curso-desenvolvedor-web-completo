@@ -1,4 +1,4 @@
-# curso-desenvolvedor-web-completo
+# Curso Desenvolvedor Web Completo + 10 de projetos.
 
 ## About
 
