@@ -1,0 +1,41 @@
+/* 
+    Created on : 25/03/2019, 11:30:10
+    Author     : William
+*/
+
+.content {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 2rem 0;
+}
+
+/* Estilo da lista nao ordenada */
+ul {
+    /* Tira o bullet (sem width para menu horizontal) */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilo dos itens */
+li {
+    /* Tira o bullet no caso do IE */
+    list-style: none;
+
+    /* Para menu horizontal */
+    display: inline-block;
+}
+
+/* Estilo dos links dos itens */
+li a {
+    text-decoration: none;
+    background-color: blue;
+    margin-bottom: 1px;
+    padding: 15px 15px;
+    margin-left: -6px;
+    color: white;
+}
+
+/* Estilo dos links dos itens no evento do hover */
+li a:hover {
+    background-color: dodgerblue;
+}
