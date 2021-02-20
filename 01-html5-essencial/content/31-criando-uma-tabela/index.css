@@ -1,11 +1,14 @@
+table {
+    width: 300px;
+}
 
-table { width: 300px; }
-
-td, th
-{
+td,
+th {
     border: 1px solid #fff;
     padding: 10px;
     background-color: #ddd;
 }
 
-th { text-align: left; }
+th {
+    text-align: left;
+}

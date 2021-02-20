@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Adicionando Datepicker</title>
+		<link rel="stylesheet" href="../../css/global.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<h1> Adicionando Datepicker </h1>
+		</header>
+
+		<main>
+			<article>
+				<hr />
+
+				<h2> Formulario </h2>
+
+				<form action="#" method="post">
+					<label for="nomeInput"> * Nome Completo: </label>
+					<input type="text" id="nomeInput" name="nome" size="30" maxlength="100" autofocus required />
+
+					<label for="telefoneInput"> Telefone: </label>
+					<input type="tel" id="telefoneInput" name="telefone" size="20" maxlength="30" />
+
+					<label for="emailInput"> * Email: </label>
+					<input type="email" id="emailInput" name="email" size="30" maxlength="60" required />
+
+					<label for="websiteInput"> Web Site: </label>
+					<input type="url" id="websiteInput" name="website" size="30" maxlength="60" />
+
+					<label for="aniversarioInput"> Data de Aniversario: </label>
+					<input type="date" id="aniversarioInput" name="data_aniversario" min="1999-01-01" max="2005-01-01" />
+
+					<!-- "datetime-local" = indica que o campo sera de data e hora locais -->
+					<label for="datahoraInput"> Data e Hora: </label>
+					<input type="datetime-local" id="datahoraInput" name="datahora" />
+
+					<button type="submit"> Enviar </button>
+				</form>
+
+				<hr />
+
+				<div class="prev-next-links">
+					<a href="../38-adicionando-campo-numerico/">
+						&blacktriangleleft;&blacktriangleleft; 
+						Adicionando Campo Numérico
+					</a>
+					<a href="../40-adicionando-datalist/">
+						Adicionando Datalist 
+						&blacktriangleright;&blacktriangleright;
+					</a>
+				</div>
+			</article>
+		</main>
+	</body>
+</html>

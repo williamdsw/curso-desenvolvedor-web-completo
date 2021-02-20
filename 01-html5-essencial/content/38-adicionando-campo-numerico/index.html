@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Adicionando Campo Numérico </title>
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1> Adicionando Campo Numérico </h1>
+        </header>
+
+        <main>
+            <article>
+                <hr/>
+
+                <h2> Formulario </h2>
+        
+                <form action="#" method="post">
+                    
+                    <label for="nomeInput"> * Nome Completo: </label>
+                    <input type="text" id="nomeInput" name="nome" size="30" maxlength="100" autofocus required />
+                    
+                    <label for="telefoneInput"> Telefone: </label>
+                    <input type="tel" id="telefoneInput" name="telefone" size="20" maxlength="30" />
+                    
+                    <label for="emailInput"> * Email: </label>
+                    <input type="email" id="emailInput" name="email" size="30" maxlength="60" required />
+                    
+                    <label for="websiteInput"> Web Site: </label>
+                    <input type="url" id="websiteInput" name="website" size="30" maxlength="60" />
+
+                    <label for="numeroFilhosInput"> Numero de filhos: </label>
+                    <input type="number" id="numeroFilhosInput" name="filhos" min="0" max="5" value="1">
+                    
+                    <button type="submit"> Enviar </button>
+                </form>
+
+                <hr>
+
+                <div class="prev-next-links">
+                    <a href="../37-adicionando-placeholder-autofocus/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Adicionando Placeholder & Autofocus
+                    </a>
+                    <a href="../39-adicionando-datepicker/">
+                        Adicionando Datepicker
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

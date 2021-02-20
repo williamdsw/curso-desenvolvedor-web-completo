@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Adicionando Campos Requiridos </title>
+        <link rel="stylesheet" href="../../css/global.css" media="screen">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1> Adicionando Campos Requiridos </h1>
+        </header>
+
+        <main>
+            <article>
+                <hr/>
+
+                <h2> Formulario </h2>
+        
+                <form action="#" method="post">
+                    
+                    <label for="nomeInput"> * Nome Completo: </label>
+                    <input type="text" id="nomeInput" name="nome" size="30" maxlength="100" required>
+                    
+                    <label for="telefoneInput"> Telefone: </label>
+                    <input type="tel" id="telefoneInput" name="telefone" size="20" maxlength="30">
+                    
+                    <label for="emailInput"> * Email: </label>
+                    <input type="email" id="emailInput" name="email" size="30" maxlength="60" required>
+                    
+                    <label for="websiteInput"> Web Site: </label>
+                    <input type="url" id="websiteInput" name="website" size="30" maxlength="60">
+                    
+                    <button type="submit"> Enviar </button>
+                </form>
+
+                <hr>
+
+                <div class="prev-next-links">
+                    <a href="../35-adicionando-novos-inputs/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Adicionando Novos Inputs
+                    </a>
+                    <a href="../37-adicionando-placeholder-autofocus/">
+                        Adicionando Placeholder e Autofoucs
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

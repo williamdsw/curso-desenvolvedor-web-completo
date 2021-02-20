@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Adicionando Novos Inputs </title>
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1> Adicionando Novos Inputs </h1>
+        </header>
+
+        <main>
+            <article>
+                <hr/>
+
+                <h2> Formulario </h2>
+        
+                <form action="destino.html" method="post">
+                    
+                    <label for="nomeInput"> Nome Completo: </label>
+                    <input type="text" id="nomeInput" name="nome" size="30" maxlength="100">
+                    
+                    <!-- "tel" = indica que o campo aceita numero telefonico -->
+                    <!--         (funciona apenas no smartphone) -->
+                    <label for="telefoneInput"> Telefone: </label>
+                    <input type="tel" id="telefoneInput" name="telefone" size="20" maxlength="30">
+                    
+                    <!-- "email" = indica que o campo e do tipo de endereco do email -->
+                    <label for="emailInput"> Email: </label>
+                    <input type="text" id="emailInput" name="email" size="30" maxlength="60">
+                    
+                    <!-- "url" = indica que o campo aceita endereco de um site -->
+                    <label for="websiteInput"> Web Site: </label>
+                    <input type="url" id="websiteInput" name="website" size="30" maxlength="60">
+                    
+                    <!-- "submit" = tipo de input que representa um botao de envio -->
+                    <!-- "value"  = texto do botao -->
+                    <button type="submit"> Enviar </button>
+                </form>
+
+                <hr>
+
+                <div class="prev-next-links">
+                    <a href="../34-criando-formulario-simples/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Criando um Formulário Simples
+                    </a>
+                    <a href="../36-adicionando-campos-requiridos/">
+                        Adicionando Campos Requiridos
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
