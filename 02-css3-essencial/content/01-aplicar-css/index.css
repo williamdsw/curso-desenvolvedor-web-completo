@@ -1,0 +1,11 @@
+/* Posso declarar um atributo embaixo do outro... */
+.content h2 {
+    color: red;
+    font-family: sans-serif;
+}
+
+/* Como declarar um elemento ao lado do outro... */
+.content p {
+    font-family: sans-serif;
+    color: brown;
+}
