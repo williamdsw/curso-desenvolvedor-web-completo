@@ -1,0 +1,10 @@
+/* Informando a fonte no font-family */
+.content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

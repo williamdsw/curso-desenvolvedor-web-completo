@@ -1,6 +1,10 @@
+.content {
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(164, 255, 16);
+}
 
-#janela
-{
+.content #janela {
     position: absolute;
     top: 50px;
     left: 50px;

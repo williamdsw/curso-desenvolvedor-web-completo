@@ -3,61 +3,66 @@
     Author     : William
 */
 
-html { background-image:url("../imagens/grid.gif"); }
-
-article, aside, section, header, footer, nav 
-{
-    display:block;
+.content {
+    background-image: url('../../imagens/grid.gif');
 }
 
-article, div, h1, h2, p 
-{
-    margin:0;
-    padding:0;
+.content article,
+.content aside,
+.content section,
+.content header,
+.content footer,
+.content nav {
+    display: block;
 }
 
-body 
-{
-    width:960px;
-    margin:0 auto;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:10px;
+.content article,
+.content div,
+.content h1,
+.content h2,
+.content p {
+    margin: 0;
+    padding: 0;
 }
 
-.em 
-{
-    float:left;
-    width:520px;
-    margin-bottom:50px;
-    background-color:rgba(153,102,153,0.5);
+.content {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 
-.percentual 
-{
-    float:right;
-    width:380px;
-    background-color:rgba(255,255,204,0.5);
-    margin-bottom:50px;
+.em {
+    float: left;
+    width: 520px;
+    margin-bottom: 50px;
+    background-color: rgba(153, 102, 153, 0.5);
 }
 
-footer
-{
-    width:960px;
-    background-color:rgba(255,204,51,0.8);
-    clear:both;
+.percentual {
+    float: right;
+    width: 380px;
+    background-color: rgba(255, 255, 204, 0.5);
+    margin-bottom: 50px;
 }
 
-h1 
-{
-    font-size: 3em; /* 300% = 30px do body */
+.content footer {
+    width: 960px;
+    background-color: rgba(255, 204, 51, 0.8);
+    clear: both;
 }
 
-h2 
-{
-    font-size: 2em; /* 200% = 20px do body */
+.content h1 {
+    font-size: 3em;
+    /* 300% = 30px do body */
 }
 
-p 
-{
-    font-size: 1em; /* 100% = 10px do body */
+.content h2 {
+    font-size: 2em;
+    /* 200% = 20px do body */
+}
+
+.content p {
+    font-size: 1em;
+    /* 100% = 10px do body */
 }

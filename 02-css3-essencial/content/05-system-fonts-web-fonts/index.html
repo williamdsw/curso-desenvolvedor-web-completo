@@ -1,7 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title> 5) System Fonts vs Web Fonts </title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> System Fonts vs Web Fonts </title>
 
         <!-- "System fonts" sao aquelas fontes que o usuario precisar ter instaladas -->
         <!--  em seu computador, exemplos: monospace, sans-serif, etc... -->
@@ -9,19 +12,34 @@
         <!-- Ja as "Web fonts" sao fontes disponibilizadas na web, em quais podem ser -->
         <!-- baixadas e utilizadas no arquivo -->
         <!-- Indicando que quero usar uma web font chamada "Roboto" -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-
-
-        <!-- Necessario um style para utilizar -->
-        <style>
-            /* Informando a fonte no font-family */
-            h1 { font-family: 'Roboto', sans-serif; font-weight: 500; }
-            p { font-family: 'Roboto', sans-serif; font-weight: 300; }
-        </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
     </head>
-
     <body>
-        <h1> Título da minha página </h1>
-        <p> Como usar Google Fonts em seu website. </p>
+        <header>
+            <h1> System Fonts vs Web Fonts </h1>
+        </header>
+        
+        <main class="content">
+            <article>
+                <hr/>
+
+                <h2> Título da minha página </h2>
+                <p> Como usar Google Fonts em seu website. </p>
+                
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../04-propriedade-cascata/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Propriedade de Cascata
+                    </a>
+                    <a href="../06-formatando-texto/">
+                        Formatando Texto
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </article>
+        </main>
     </body>
 </html>

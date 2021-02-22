@@ -1,6 +1,7 @@
-
 /* Utilizando para todos a mesma font-family */
-body { font-family: Roboto, sans-serif; }
+.content {
+    font-family: Roboto, sans-serif;
+}
 
 /* (unidade absoluta) vs (unidade relativa) 
  *
@@ -12,33 +13,36 @@ body { font-family: Roboto, sans-serif; }
  * do dispositivo.
  * Exemplo: font-size: 2em;
 */
-h1 
-{
-    font-size: 2em;                 /* Tamanho da fonte */
-    text-decoration: underline;     /* Decoracao sobre o texto */
-    text-transform: capitalize;     /* Transformacao do texto */
+.content h2 {
+    font-size: 2em;
+    /* Tamanho da fonte */
+    text-decoration: underline;
+    /* Decoracao sobre o texto */
+    text-transform: capitalize;
+    /* Transformacao do texto */
 }
 
-h4 
-{
+.content h4 {
     font-size: 1.5em;
     text-decoration: line-through;
 }
 
-p 
-{
+.content p {
     font-size: 100%;
-    text-align: justify;    /* Alinhamento do texto */
-    line-height: 1.5;       /* Tamanho da linha, espacamento entre elas */
-    text-indent: 2em;       /* Identacao do texto, espaco do paragrafo */
+    text-align: justify;
+    /* Alinhamento do texto */
+    line-height: 1.5;
+    /* Tamanho da linha, espacamento entre elas */
+    text-indent: 2em;
+    /* Identacao do texto, espaco do paragrafo */
 }
 
-.italico 
-{
-    font-style: italic;     /* Estilo da fonte */
+.content .italico {
+    font-style: italic;
+    /* Estilo da fonte */
 }
 
-.destaqueNegrito 
-{
-    font-weight: 500;       /* Tamanho da fonte, como negrito etc... */
+.content .destaque-negrito {
+    font-weight: 500;
+    /* Tamanho da fonte, como negrito etc... */
 }

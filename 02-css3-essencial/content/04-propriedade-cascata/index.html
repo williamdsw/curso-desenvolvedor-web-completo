@@ -1,28 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title> 4) Propriedade de Cascata </title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Propriedade de Cascata </title>
 
         <!-- Estilo "externo"  -->
-        <link href="../css/04-propriedade-cascata.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
 
         <!-- Estilo "interno" -->
         <style>
-            h1 { color: cadetblue; }
+            h1 {
+                color: cadetblue;
+            }
         </style>
     </head>
-
     <body>
-        <h1> Cafe Townsend welcomes you </h1>
-        
-        <p> Cafe Townsend's visionary chef leads the way in a culinary revolution. 
-            Proclaimed by many to be the best chef in the world today, 
-            Chef Bienni blends earthy seasonal flavors and bold ingredients to create exquisite contemporary cuisine. </p>
+        <header>
+            <h1> Propriedade de Cascata </h1>
+        </header>
 
-        <!-- Estilo "inline" -->
-        <p style="color: black;"> The name Cafe Townsend comes from our first restaurant, 
-            located in a historic building on Townsend Street in San Francisco, 
-            where we opened the doors in 1985. We've replicated the elegant interior, 
-            exceptional service, and world-class cuisine in our restaurants around the country. </p>          
+        <main class="content">
+            <article>
+                <hr />
+
+                <h2> Cafe Townsend welcomes you </h2>
+
+                <p>
+                    Cafe Townsend's visionary chef leads the way in a culinary revolution.
+                    Proclaimed by many to be the best chef in the world today,
+                    Chef Bienni blends earthy seasonal flavors and
+                    bold ingredients to create exquisite contemporary cuisine.
+                </p>
+
+                <!-- Estilo "inline" -->
+                <p style="color: black;">
+                    The name Cafe Townsend comes from our first restaurant,
+                    located in a historic building on Townsend Street in San Francisco,
+                    where we opened the doors in 1985. We've replicated the elegant interior,
+                    exceptional service, and world-class cuisine in our restaurants around the country.
+                </p>
+
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../03-css-externo/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        CSS Externo
+                    </a>
+                    <a href="../05-system-fonts-web-fonts/">
+                        System Fonts & Web Fonts
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </article>
+        </main>
     </body>
 </html>

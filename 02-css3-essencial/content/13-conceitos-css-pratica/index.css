@@ -3,13 +3,16 @@
     Author     : William
 */
 
-html  { background-color: #EFEFEF; }
+html {
+    background-color: #EFEFEF;
+}
 
 /* Tira margin default */
-body  { margin: 0; }
+body {
+    margin: 0;
+}
 
-#principal 
-{
+#principal {
     width: 750px;
     margin: 0 auto;
     background-color: #9C3;
@@ -17,15 +20,13 @@ body  { margin: 0; }
 }
 
 /* Adaptando para nao "quebrar" em caso de varios elementos "*/
-#principal:after
-{
+#principal:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.janela 
-{
+.janela {
     float: left;
     width: 350px;
     background-color: #FC3;
@@ -33,4 +34,6 @@ body  { margin: 0; }
     margin: 5px;
 }
 
-p  { margin: 0; }
+p {
+    margin: 0;
+}
