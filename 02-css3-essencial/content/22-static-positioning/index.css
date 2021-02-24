@@ -3,26 +3,28 @@
     Author     : William
 */
 
-html, body , h1 
-{
+.content,
+.content, h2 {
     margin: 0;
     padding: 0;
 }
 
-html 
-{
-    background: rgb(254,255,216);
+.content {
+    background: rgb(254, 255, 216);
 }
 
-article, aside, section, header, footer, nav 
-{
+article,
+aside,
+section,
+header,
+footer,
+nav {
     display: block;
 }
 
-main 
-{
-    width: 660px;
-    background-color: rgb(255,255,255);
+.main {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     box-shadow: 0 0 10px #666;
@@ -30,36 +32,31 @@ main
     padding: 10px;
 }
 
-#principal 
-{
-    background-color: rgb(240,240,240);
+.principal {
+    background-color: rgb(240, 240, 240);
     border: 1px dotted #666666;
     margin-top: 20px;
 }
 
-section 
-{
-    height: 100px; 
-    width: 100px; 
-    padding: 10px;
+.principal .janela {
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem;
 }
 
-.janela1 
-{
-    background-color: rgb(153,204,51);
-    
+.janela.janela-verde {
+    background-color: rgb(153, 204, 51);
+
     /* "position: static" = Posicionamento natural do elemento "*/
     position: static;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
-.janela2 
-{
-    background-color: rgb(255,204,51);
+.janela.janela-amarela {
+    background-color: rgb(255, 204, 51);
 }
 
-.janela3 
-{
-    background-color: rgb(51,153,204);
+.janela.janela-azul {
+    background-color: rgb(51, 153, 204);
 }

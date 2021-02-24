@@ -3,76 +3,76 @@
     Author     : William
 */
 
-html, body, h1, h2, h3, h4, p 
-{
-    margin:0;
-    padding:0;
+.content,
+.content h2,
+.content h3,
+.content h4,
+.content p {
+    margin: 0;
+    padding: 0;
 }
 
-html 
-{
-    background:rgb(229,229,229);
+.content {
+    background: rgb(229, 229, 229);
 }
 
-article, aside, section, header, footer, nav 
-{
-    display:block;
+article,
+aside,
+section,
+header,
+footer,
+nav {
+    display: block;
 }
 
-main 
-{
-    width:960px;
-    background-color:rgb(255,255,255);
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
+.content {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     box-shadow: 0 0 10px #666;
-    margin:10px auto;
-    padding:10px;
+    margin: 10px auto;
+    padding: 10px;
 }
 
-header 
-{
-    padding:25px;
-    background-color:rgb(255,102,51);
-    text-align:center;
-    margin-bottom:20px;
+.content header {
+    padding: 1.5rem;
+    background-color: rgb(255, 102, 51);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-header h1 
-{
-    font-size:1.3em;
-    color:rgb(255,255,255);
+.content header h2 {
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
 }
 
-.janela1 
-{
-    background-color:rgb(153,204,51);
-    height:500px;
-    
+.content .janela1 {
+    background-color: rgb(153, 204, 51);
+    height: 500px;
+
     /* Adicionados */
-    width: 600px;
+    width: 65%;
     float: left;
-    padding: 20px;
+    padding: 1rem;
 }
 
-.janela2 
-{
-    background-color:rgb(255,204,51);
-    height:500px;
-    
+.content .janela2 {
+    background-color: rgb(255, 204, 51);
+    height: 500px;
+
     /* Adicionados */
-    margin-left: 660px;
-    padding: 20px;
+    margin-left: 70%;
+    padding: 1rem;
 }
 
-footer 
-{
-    padding:5px;
-    background-color:rgb(204,153,51);
-    text-align:center;
-    color:rgb(255,255,255);
-    
+.content footer {
+    padding: 0.5rem;
+    background-color: rgb(204, 153, 51);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
     /* Adicionados */
     clear: both;
-    margin-top: 20px;
+    margin-top: 1rem;
 }

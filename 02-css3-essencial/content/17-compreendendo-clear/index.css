@@ -3,31 +3,28 @@
     Author     : William
 */
 
-html, body 
-{
+.content {
     margin: 0;
     padding: 0;
+    background: rgb(229, 229, 229);
 }
 
-html 
-{
-    background: rgb(229,229,229);
-}
-
-article, aside, section, header, footer, nav 
-{
+article,
+aside,
+section,
+header,
+footer,
+nav {
     display: block;
 }
 
-main 
-{
-    width: 600px;
-    background-color: rgb (255,255,255);
+.content {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
     margin: 2em auto;
 }
 
-div 
-{
+.content div {
     margin-bottom: 1em;
     margin-right: 2em;
     width: 150px;
@@ -36,15 +33,14 @@ div
     font-size: 12px;
 }
 
-.janela1 
-{ 
-    background-color: rgb(0,153,204);
+.content .janela1 {
+    background-color: rgb(0, 153, 204);
     float: right;
     height: 200px;
 }
-.janela2 
-{ 
-    background-color: rgb(255,204,51); 
+
+.content .janela2 {
+    background-color: rgb(255, 204, 51);
     float: left;
     height: 250px;
 }
@@ -54,17 +50,20 @@ div
  * "right" = Nenhum elemento a direita 
  * "both" = Nenhum elemento em ambas direcoes */
 
-.janela3 
-{ 
-    background-color: rgb(153,204,51); 
+ .content .janela3 {
+    background-color: rgb(153, 204, 51);
     clear: both;
 }
 
-.janela4 
-{ 
-    background-color: rgb(255,102,51); 
-    clear: left; 
+.content .janela4 {
+    background-color: rgb(255, 102, 51);
+    clear: left;
 }
 
-.janela5 { background-color:rgb(153,51,204); }
-.janela6 { background-color:rgb(255,102,255); }
+.content .janela5 {
+    background-color: rgb(153, 51, 204);
+}
+
+.content .janela6 {
+    background-color: rgb(255, 102, 255);
+}

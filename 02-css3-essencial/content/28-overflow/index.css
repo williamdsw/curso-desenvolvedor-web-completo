@@ -3,58 +3,54 @@
     Author     : William
 */
 
-html, body , h1 
-{
+.content,
+.content h2 {
     margin: 0;
     padding: 0;
 }
 
-article, aside, section, header, footer, nav 
-{
+article,
+aside,
+section,
+header,
+footer,
+nav {
     display: block;
 }
 
-body 
-{
-    background: rgb(254,255,216);
+.content {
+    background: rgb(254, 255, 216);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
-#principal 
-{
-    background-color: rgb(255,255,255);
+.principal {
+    background-color: rgb(255, 255, 255);
     width: 660px;
     box-shadow: 0 0 10px #666;
     margin: 10px auto;
     padding: 10px;
 }
 
-#conteudo 
-{
-    background-color: rgb(240,240,240);
+.conteudo {
+    background-color: rgb(240, 240, 240);
     border: 1px dotted #666666;
     margin-top: 20px;
     position: relative;
     height: 450px;
 }
 
-section 
-{
+.janela {
     width: 200px;
-}
-
-.janela1 
-{
-    background-color: rgb(153,204,51);
+    background-color: rgb(153, 204, 51);
     padding: 10px;
     position: absolute;
     top: 50px;
     left: 50px;
-    
+
     /* Adicionados */
     height: 300px;
-    
+
     /* "overflow" = Serve para adicionar barras de rolagem */
     overflow: auto;
 }

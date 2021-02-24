@@ -3,92 +3,78 @@
     Author     : William
 */
 
-html, body, h1, h2, h3, h4, p 
-{
-    margin:0;
-    padding:0;
+.content,
+.content h2,
+.content h3,
+.content h4,
+.content p {
+    margin: 0;
+    padding: 0;
 }
 
-html 
-{
-    background:rgb(229,229,229);
+.content {
+    background: rgb(229, 229, 229);
 }
 
-article, aside, section, header, footer, nav 
-{
-    display:block;
+article,
+aside,
+section,
+header,
+footer,
+nav {
+    display: block;
 }
 
-main 
-{
-    width:960px;
-    background-color:rgb(255,255,255);
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
+.content {
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     box-shadow: 0 0 10px #666;
-    margin:10px auto;
-    padding:10px;
+    margin: 10px auto;
+    padding: 1rem;
 }
 
-header
-{
-    padding:25px;
-    background-color:rgb(255,102,51);
-    text-align:center;
-    margin-bottom:20px;
-}
-
-header h1 
-{
-    font-size:1.3em;
-    color:rgb(255,255,255);
-}
-
-.janela1 
-{
-    background-color:rgb(153,204,51);
-    height:500px;
-    
-    /* Adicionado */
-    float: left;
-    width: 266px;
-    padding: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.janela2
-{
-    background-color:rgb(255,204,51);
-    height:500px;
-    
-    /* Adicionado */
-    float: left;
-    width: 266px;
-    padding: 20px;
-    margin-left: 20px;
+.content header {
+    padding: 25px;
+    background-color: rgb(255, 102, 51);
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.janela3 
-{
-    background-color:rgb(0,153,204);
-    height:500px;
-    
-    /* Adicionado */
+.content header h2 {
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+}
+
+.content .janela {
+    float: left;
+    width: 29%;
+    height: 500px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content .janela.janela-verde {
+    background-color: rgb(153, 204, 51);
+}
+
+.content .janela.janela-amarela {
+    background-color: rgb(255, 204, 51);
+    margin-left: 1%;
+}
+
+.content .janela.janela-azul {
+    background-color: rgb(0, 153, 204);
     float: right;
-    width: 266px;
-    padding: 20px;
-    margin-bottom: 20px;
 }
 
-footer 
-{
-    padding:5px;
-    background-color:rgb(204,153,51);
-    text-align:center;
-    color:rgb(255,255,255);
-    
+.content footer {
+    padding: 0.5rem;
+    background-color: rgb(204, 153, 51);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
     /* Adicionado */
     clear: both;
 }

@@ -1,24 +1,64 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Overflow </title>
-        <link rel="stylesheet" href="../css/28-overflow.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
     </head>
-
     <body>
-        <div id="principal">
-            <h1> Aula de Overflow </h1>
+        <header>
+            <h1> Overflow </h1>
+        </header>
 
-            <div id="conteudo">
-                <section class="janela1">
-                    <p> A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, mostrado com barras de rolagem ou mostrados vazando fora do elemento.</p>
-                    <p> O uso da propriedade overflow com valor diferente de visible, que é seu valor padrão, criará um novo 
-                        <a href="https://developer.mozilla.org/en-US/docs/CSS/block_formatting_context" title="CSS/block_formatting_context"> contexto de formatação de bloco</a>. 
-                        Isto é tecnicamente necessário para evitar que um conteúdo flutuante que entre em contato com o objeto dentro da area de rolamento quebre as linhas do conteúdo para ajustar a disposição do texto. A quebra das linhas teria que ocorrer toda vez que a barra de rolagem fosse utilizada, tornando este procedimento muito lento. Note que ao definir a propredade scrollTop para o elemento HTML relevante, 
-                        ainda que o valor de overflow fosse hidden o conteúdo poderia precisar ser movido.</p>
-                </section>
-          </div>
-        </div>
+        <main>
+            <section>
+                <hr />
+            </section>
+            <article class="content">
+
+                <h2> Aula de Overflow </h2>
+
+                <div class="conteudo">
+                    <section class="janela">
+                        <p> 
+                            A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco 
+                            deve ser cortado,
+                            mostrado com barras de rolagem ou mostrados vazando fora do elemento.
+                        </p>
+                        <p> 
+                            O uso da propriedade overflow com valor diferente de visible, 
+                            que é seu valor padrão, criará um novo
+                            <a href="https://developer.mozilla.org/en-US/docs/CSS/block_formatting_context" title="CSS/block_formatting_context">
+                                contexto de formatação de bloco
+                            </a>.
+                            Isto é tecnicamente necessário para evitar que um conteúdo 
+                            flutuante que entre em contato com o objeto dentro da area de 
+                            rolamento quebre as linhas do conteúdo para ajustar a disposição do texto.
+                            A quebra das linhas teria que ocorrer toda vez que a barra de rolagem fosse utilizada, 
+                            tornando este procedimento muito lento. 
+                            Note que ao definir a propredade scrollTop para o elemento HTML relevante,
+                            ainda que o valor de overflow fosse hidden o conteúdo poderia precisar ser movido.
+                        </p>
+                    </section>
+                </div>
+
+            </article>
+            <section>
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../27-clipping/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Clipping
+                    </a>
+                    <a href="../29-aplicar-grid/">
+                        Aplicar Grid
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

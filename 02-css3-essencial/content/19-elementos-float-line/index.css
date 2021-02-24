@@ -3,96 +3,102 @@
     Author     : William
 */
 
-html, body, h1, h2, h3, h4, p 
-{
-    margin:0;
-    padding:0;
+.content,
+.content h2,
+.content h3,
+.content h4,
+p {
+    margin: 0;
+    padding: 0;
 }
 
-html 
-{
-    background:rgb(229,229,229);
+.content {
+    background: rgb(229, 229, 229);
 }
 
-article, aside, section, header, footer, nav 
-{
-    display:block;
+article,
+aside,
+section,
+header,
+footer,
+nav {
+    display: block;
 }
 
-main 
-{
-    width:720px;
-    margin:0 auto;
-    padding:25px;
-    background-color:rgb(255,255,255);
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
+.content {
+    width: 55%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     box-shadow: 0 0 10px #666;
 }
 
-header 
-{
-    padding:25px;
-    background-color:rgb(255,204,51);
-    text-align:center;
-    margin-bottom:20px;
+.content header {
+    padding: 1.5rem;
+    background-color: rgb(255, 204, 51);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-header h1 
-{
-    font-size:1.3em;
-    color:rgb(255,255,255);
+.content header h2 {
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
 }
 
-article 
-{
-    clear:both;
+.content {
+    clear: both;
 }
 
-article h1, article h2, article h3 
-{
-    font-family:Georgia, "Times New Roman", Times, serif;
-    font-style:italic;
-    color:rgb(255,102,51);
-    margin:0;
-    line-height:1.5;
+.content h2,
+.content h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: rgb(255, 102, 51);
+    margin: 0;
+    line-height: 1.5;
 }
 
-article h1 { font-size:3em }
-article h2 { font-size:2em }
-article h3 { font-size:1.5em }
-article p   
-{ 
-    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
-    font-size:1em; 
-    color:rgb(102,102,102);
-    line-height:1.5;
-    margin-bottom:20px; 
+.content h2 {
+    font-size: 3em;
+}
+
+.content h3 {
+    font-size: 2em;
+}
+
+.content h4 {
+    font-size: 1.5em
+}
+
+.content p {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 /* "overflow: hidden" = Para "abracar" todo elemento */
-section.textoApresentacao
-{
+.content section.texto-apresentacao {
     overflow: hidden;
 }
 
 /* Deixando a imagem a esquerda e com margens */
-section.textoApresentacao img
-{
+.content section.texto-apresentacao img {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
 }
 
 /* Para a "section" nao ter elementos a esquerda / direita "*/
-section.textoMedio
-{
+.content section.texto-medio {
     clear: both;
 }
 
 /* Modificando a "primeira letra" de cada "paragrafo" */
-section.textoMedio p:first-of-type:first-letter
-{
+.content section.texto-medio p:first-of-type:first-letter {
     font-size: 4em;
     line-height: 0.8;
     margin: 0 5px 0 0;
