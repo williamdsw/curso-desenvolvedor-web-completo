@@ -3,39 +3,33 @@
     Author     : William
 */
 
-body 
-{
+.content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
-nav ul 
-{
+.content nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 /* "display: inline" = Deixa a lista horizontal */
-nav ul li 
-{
+.content nav ul li {
     list-style-type: none;
     display: inline;
 }
 
 /* Define estilo do a */
-nav ul li a 
-{
+.content nav ul li a {
     display: inline-block;
-    width: 100px;
-    padding: 10px 30px;
-    margin-right: -3px;
+    width: 6.5rem;
+    padding: 0.55rem 2rem;
     text-decoration: none;
     background-color: cornflowerblue;
     color: white;
 }
 
-nav ul li a:hover 
-{
+.content nav ul li a:hover {
     background-color: darkslateblue;
 }

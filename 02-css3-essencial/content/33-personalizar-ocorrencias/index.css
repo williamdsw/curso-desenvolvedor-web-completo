@@ -3,38 +3,32 @@
     Author     : William
 */
 
-body 
-{
+.content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
 /* "li:first-child" = Primeiro item (ocorrencia) da lista */
-li:first-child
-{
+li:first-child {
     color: aqua;
 }
 
 /* "li:last-child" = Ultimo item (ocorrencia) da lista */
-li:last-child
-{
+li:last-child {
     color: #096;
 }
 
 /* "li:nth-child(index)" = Enesimo item (ocorrencia) da lista, nesse caso o terceiro item */
-li:nth-child(3)
-{
+li:nth-child(3) {
     color: #B4531A;
 }
 
 /* "li:first-child(odd)" = Afeta todos itens (ocorrencias) impares da lista */
-li:nth-child(odd)
-{
+li:nth-child(odd) {
     font-weight: bold;
 }
 
 /* "li:first-child(even)" = Afeta todos itens (ocorrencias) pares da lista */
-li:nth-child(even)
-{
+li:nth-child(even) {
     font-style: italic;
 }

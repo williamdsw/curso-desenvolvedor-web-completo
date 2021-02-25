@@ -3,38 +3,33 @@
     Author     : William
 */
 
-body 
-{
+.content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
 /* Retirando espacamento e tamanho do ul */
-nav ul 
-{
-    width: 200px;
+.content nav ul {
+    width: 12rem;
     margin: 0;
     padding: 0;
 }
 
 /* Retirando pontos do li */
-nav ul li 
-{
+.content nav ul li {
     list-style: none;
 }
 
 /* Definindo propriedades do a */
-nav ul li a 
-{
+.content nav ul li a {
     display: block;
     text-decoration: none;
     color: #FFF;
     background-color: cadetblue;
-    padding: 5px;
+    padding: 0.3rem;
     margin-bottom: 1px;
 }
 
-nav ul li a:hover 
-{
+.content nav ul li a:hover {
     background-color: chartreuse;
 }

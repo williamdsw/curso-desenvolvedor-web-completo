@@ -3,30 +3,26 @@
     Author     : William
 */
 
-body 
-{
+.content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
-ul 
-{ 
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-li
-{
-    width: 200px;
-    padding: 5px;
+li {
+    width: 12rem;
+    padding: 0.3rem;
     background-color: #ddd;
     margin-bottom: 1px;
 }
 
 /* "li:nth-child(3n)" = Nesse caso aplicando a cada 3 elementos */
-li:nth-child(3n)
-{
+li:nth-child(3n) {
     background-color: #ccc;
     font-weight: bold;
 }

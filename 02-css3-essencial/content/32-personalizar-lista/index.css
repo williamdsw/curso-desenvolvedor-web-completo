@@ -3,24 +3,22 @@
     Author     : William
 */
 
-body 
-{
+.content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
 /* "ul" = Indica lista nao-ordenada 
  * "ol" = Indica lista ordenada */
-ul, ol
-{
+ul,
+ol {
     margin: 0;
     padding: 0;
 }
 
 /* "li" = Indica item da lista 
    "list-style-type" = Indica tipo de estilo da lista */
-li 
-{
+li {
     background-color: aliceblue;
     list-style-type: none;
 }

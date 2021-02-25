@@ -3,51 +3,46 @@
     Author     : William
 */
 
-html, body 
-{
+.content {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
+    background: rgb(229, 229, 229);
 }
 
-html 
-{
-    background: rgb(229,229,229);
-}
-
-article, aside, section, header, footer, nav 
-{
+article,
+aside,
+section,
+header,
+footer,
+nav {
     display: block;
 }
 
-main 
-{
+.main {
     width: 75%;
     margin: 10px auto;
     box-shadow: 0 0 10px #999999;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     font-size: 14px;
     min-width: 745px;
 }
 
-header 
-{
+.main header {
     width: 100%;
     height: 110px;
-    background-color: rgb(255,127,0);
-    background-color: rgb(12,4,1);
-    background-image: url("../imagens/topo.jpg");
-    background-repeat: no-repeat;		
+    background-color: rgb(255, 127, 0);
+    background-color: rgb(12, 4, 1);
+    background-image: url("../../imagens/topo.jpg");
+    background-repeat: no-repeat;
 }
 
-nav 
-{
+.main nav {
     width: 100%;
     height: 32px;
-    background-color: rgb(12,4,1);
+    background-color: rgb(12, 4, 1);
 }
 
-nav a 
-{
+.main nav a {
     float: left;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -58,71 +53,63 @@ nav a
     text-align: center;
 }
 
-.conteudo 
-{
+.main .conteudo {
     float: left;
     width: 62%;
-    background-color: rgb(255,255,204);
+    background-color: rgb(255, 255, 204);
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 0 2%;
 }
 
-.conteudo h1, .conteudo h2 
-{
+.main .conteudo h2,
+.main .conteudo h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
-    color: rgb(153,102,51);
+    color: rgb(153, 102, 51);
     margin: 10px 0;
 }
 
-.conteudo h1 
-{ 
+.main .conteudo h2 {
     font-size: 250%;
 }
 
-.conteudo h2 
-{ 
-    font-size: 200%; 
-    margin-top:20px; 
+.main .conteudo h3 {
+    font-size: 200%;
+    margin-top: 20px;
 }
 
-.conteudo p 
-{
+.main .conteudo p {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     line-height: 200%;
     margin: 0;
     padding: 0;
 }
 
-.conteudo img 
-{
+.main .conteudo img {
     float: left;
     margin-right: 10px;
 }
 
-.apoio 
-{
+.main .apoio {
     float: right;
     width: 32%;
     height: 500px;
-    background-color: rgb(221,221,221);
+    background-color: rgb(221, 221, 221);
     margin-top: 10px;
 }
 
-footer 
-{
+.main footer {
     clear: both;
     width: 100%;
     height: 60px;
-    background-color: rgb(153,153,153);
+    background-color: rgb(153, 153, 153);
 }
 
 /* Adicionados */
-div.minhaFoto
-{
+div.minha-foto {
     height: 240px;
     margin: 10px 0;
-    background-image: url("../imagens/eventos_especiais.jpg");
+    background-image: url("../../imagens/eventos_especiais.jpg");
     background-repeat: no-repeat;
 }
