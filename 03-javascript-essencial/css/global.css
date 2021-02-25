@@ -1,0 +1,4 @@
+.prev-next-links {
+    display: flex;
+    justify-content: space-between;
+}
