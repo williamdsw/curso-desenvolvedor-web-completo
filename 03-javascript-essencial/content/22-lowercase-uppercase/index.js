@@ -1,11 +1,20 @@
-/* String qualquer */
-var nome = "Trent Reznor";
-            
-/* string.toLowerCase () = "converte" a string para minusculo
- * string.toUpperCase () = "converte" a string para maiusculo */
-var minusculo = nome.toLowerCase ();
-var maiusculo = nome.toUpperCase ();
+var input = document.querySelector('input');
+var button = document.querySelector('button');
+var output = document.querySelector('output');
 
-console.log ("Nome = " + nome);
-console.log ("minusculo = " + minusculo);
-console.log ("maiusculo = " + maiusculo);
+if (input && button && output) {
+    input.addEventListener('input', function () {
+        button.disabled = (this.value === '');
+    });
+
+    button.addEventListener('click', () => {
+        var minusculo = input.value.toLowerCase();
+        var maiusculo = input.value.toUpperCase();
+
+        output.innerText = '';
+        output.innerText += `Minúsculo: ${minusculo}\n`;
+        output.innerText += `Maiúsculo: ${maiusculo}\n`;
+    });
+
+    input.dispatchEvent(new Event('input'));
+}

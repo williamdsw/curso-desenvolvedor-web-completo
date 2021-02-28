@@ -1,24 +1,54 @@
-/* Declarando array*/
-var bandas = new Array();
+var bandaInput = document.querySelector('#bandaInput');
+var pushButton = document.querySelector('#pushButton');
+var unshiftButton = document.querySelector('#unshiftButton');
+var popButton = document.querySelector('#popButton');
+var shiftButton = document.querySelector('#shiftButton');
+var output = document.querySelector('output');
 
-/* push() = Adiciona item no final do array */
-bandas.push("Megadeth");
-bandas.push("Anthrax");
+var bandas = new Array('Megadeth', 'Metallica', 'Slayer', 'Anthrax');
 
-/* unshift() = Adiciona item no inicio do array */
-bandas.unshift("Metallica");
-bandas.unshift("Slayer");
+if (bandaInput && pushButton && unshiftButton && popButton && shiftButton && output) {
 
-console.log(bandas);
+    bandaInput.addEventListener('input', function () {
+        pushButton.disabled = unshiftButton.disabled = (this.value === '');
+    });
 
-/* length = Retorna o numero de itens do array */
-console.log("tamanho do array depois de insercoes : " + bandas.length);
+    pushButton.addEventListener('click', onPush);
+    unshiftButton.addEventListener('click', onUnshift);
+    popButton.addEventListener('click', onPop);
+    shiftButton.addEventListener('click', onShift);
 
-/* pop() = exclui o ultimo item do array */
-bandas.pop();
+    function renderArray() {
+        output.innerText = bandas.join(',');
+        bandaInput.value = '';
+        popButton.disabled = (bandas.length === 0);
+        shiftButton.disabled = (bandas.length === 0);
+    }
 
-/* shift() = exclui o primeiro item do array */
-bandas.shift();
+    function onPush() {
+        bandas.push(bandaInput.value);
+        renderArray();
+    }
 
-console.log(bandas);
-console.log("Tamanho do array depois de exclusões : " + bandas.length);
+    function onUnshift() {
+        bandas.unshift(bandaInput.value);
+        renderArray();
+    }
+
+    function onPop() {
+        if (bandas.length === 0) return;
+        bandas.pop();
+        renderArray();
+    }
+
+    function onShift() {
+        if (bandas.length === 0) return;
+        bandas.shift();
+        renderArray();
+    }
+
+    var inputEvent = new Event('input');
+    bandaInput.dispatchEvent(inputEvent);
+
+    renderArray();
+}
