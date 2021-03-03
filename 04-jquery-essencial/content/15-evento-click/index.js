@@ -1,31 +1,31 @@
 
-$(function ()
-{
-    /* $(elemento).click (callback)
-     * Definindo funcao anonima para clique (click) */
-    $("#btn_curso_html5").click (function ()
-    {
-        $("#output").text ("Clicou no botão do HTML5");
-    });
+$(function () {
+    var texts = ['Clicou no botão do HTML5', 'Clicou no botão do CSS3'];
+    var buttons = $('button');
+    var output = $('output');
+    if (buttons && output) {
+        buttons.each((index, button) => {
 
-    /* $(elemento).on ("evento", callback);
-     * Definindo funcao anonima para clique (on = facilita trocar de evento) */
-    $("#btn_curso_css3").on ("click", function ()
-    {
-        $("#output").text ("Clicou no botão do CSS3");
-    });
+            if (index == 0) {
+                // $(elemento).click (callback) = Definindo funcao anonima para clique (click)
+                $(button).click(() => output.text(texts[index]));
+            }
+            else {
+                $(button).on('click', () => output.text(texts[index]));
+            }
+        });
 
-    /* Funcao */
-    function mostrarMensagem ()
-    {
-        $("#output").text ("Passou o mouse por cima do botão do CSS3");
+        // Funcao 
+        function mostrarMensagem() {
+            output.text('Passou o mouse por cima do botão do CSS3');
 
-        /* $(elemento).off () = Desabilita todos eventos  
-         * $(elemento).off ("evento", callback) = Desabilita o evento especificado  */
-        $("#btn_curso_css3").off ("mouseover", mostrarMensagem);
+            /* $(elemento).off () = Desabilita todos eventos  
+             * $(elemento).off ('evento', callback) = Desabilita o evento especificado  */
+            $('#cursoCssButton').off('mouseover', mostrarMensagem);
+        }
+
+        /* $(elemento).on ('evento', callback);
+         * Definindo funcao declarada a cima no onmouseover */
+        $('#cursoCssButton').on('mouseover', mostrarMensagem);
     }
-
-    /* /* $(elemento).on ("evento", callback);
-     * Definindo funcao declarada a cima no onmouseover */
-    $("#btn_curso_css3").on ("mouseover", mostrarMensagem);
 });
