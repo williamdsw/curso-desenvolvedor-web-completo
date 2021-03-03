@@ -1,18 +1,45 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Criar / Pegar Elementos </title>
-        <script src="../jquery/jquery-3.2.1.min.js"></script>
-        <script src="../js/06-criar-pegar-elementos.js"></script>
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../jquery/jquery-3.2.1.min.js" defer></script>
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <h1> Cursos </h1>
-        <ul id="lista_curso">
-            <li> Curso HTML5 Essencial </li>
-            <li> Curso CSS3 Essencial </li>
-            <li> Curso Javascript Essencial </li>
-            <li> Curso jQuery Fundamental </li>
-        </ul>
+        <header>
+            <h1> Criar / Pegar Elementos </h1>
+        </header>
+
+        <main>
+            <section>
+                <hr />
+            </section>
+            <article>
+                <h2> Cursos </h2>
+                <ul class="lista-cursos">
+                    <li> Curso HTML5 Essencial </li>
+                    <li> Curso CSS3 Essencial </li>
+                    <li> Curso Javascript Essencial </li>
+                    <li> Curso jQuery Fundamental </li>
+                </ul>
+            </article>
+            <section>
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../05-inserir-conteudo/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Inserir Conteúdo
+                    </a>
+                    <a href="../07-adicionando-removendo-atributos/">
+                        Adicionando e Removendo Atributos
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

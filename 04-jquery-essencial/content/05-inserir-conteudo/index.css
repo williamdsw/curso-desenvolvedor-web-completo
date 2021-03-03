@@ -3,15 +3,13 @@
     Author     : William
 */
 
-ul 
-{ 
-    margin: 0; 
-    padding: 0; 
-    list-style: none; 
+.content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-li 
-{ 
-    display: inline-block; 
-    margin-right: 10px; 
+.content li {
+    display: inline-block;
+    margin-right: 10px;
 }

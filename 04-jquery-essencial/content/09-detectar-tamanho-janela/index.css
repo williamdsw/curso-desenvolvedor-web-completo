@@ -3,10 +3,9 @@
     Author     : William
 */
 
-#janela 
-{ 
-    width: 500px; 
-    height: 1000px; 
-    background-color: #069; 
+.janela {
+    width: 500px;
+    height: 1000px;
+    background-color: #069;
     border: 5px solid #000;
 }
