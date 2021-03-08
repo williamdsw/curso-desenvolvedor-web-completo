@@ -1,21 +1,44 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Image Rotator </title>
-        <link rel="stylesheet" href="../css/23-criar-image-rotator.css">
-        <script src="../jquery/jquery-3.2.1.min.js"></script>
-        <script src="../js/23-criar-image-rotator.js"></script>
+        <link rel="stylesheet" href="../../css/global.css">
+		<link rel="stylesheet" href="index.css">
+        <script src="../../jquery/jquery-3.2.1.min.js" defer></script>
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <div id="principal">
-            <div id="janela">
-                <img src="../imagens/galeria_foto_1.jpg" alt="foto1"/>
-                <img src="../imagens/galeria_foto_2.jpg" alt="foto2"/>
-                <img src="../imagens/galeria_foto_3.jpg" alt="foto3"/>
-                <img src="../imagens/galeria_foto_4.jpg" alt="foto4"/>
-                <img src="../imagens/galeria_foto_5.jpg" alt="foto5"/>
-            </div>
-        </div>
+        <header>
+            <h1> Image Rotator </h1>
+        </header>
+
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<div id="principal" class="principal">
+                    <div id="janela" class="janela">
+                        <img src="../../imagens/galeria_foto_1.jpg" alt="foto1"/>
+                        <img src="../../imagens/galeria_foto_2.jpg" alt="foto2"/>
+                        <img src="../../imagens/galeria_foto_3.jpg" alt="foto3"/>
+                        <img src="../../imagens/galeria_foto_4.jpg" alt="foto4"/>
+                        <img src="../../imagens/galeria_foto_5.jpg" alt="foto5"/>
+                    </div>
+                </div>
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../22-efeito-animacao-personalizado/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Efeito de Animação Personalizado
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

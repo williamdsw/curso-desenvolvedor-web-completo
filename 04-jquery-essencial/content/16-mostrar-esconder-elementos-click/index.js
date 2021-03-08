@@ -1,25 +1,28 @@
+var janela = null;
+var mostrarEsconderButton = null;
+var esconderButton = null;
 
-/* Quando carregar JQuery... */
-$(function (event)
-{
-    /* Esconde por padrao */
-    $("#janela").hide ();
+// Quando carregar JQuery...
+$(function () {
+    janela = $('#janela');
+    mostrarEsconderButton = $('#mostrarButton');
+    esconderButton = $('#esconderButton');
 
-    /* Joga eventos click nos elementos */
-    $("#btn_mostrar").click (mostrarElemento);
-    $("#btn_esconder").click (esconderElemento);
+    if (janela && mostrarEsconderButton && esconderButton) {
+        janela.hide();
+        mostrarEsconderButton.click(mostrarElemento);
+        esconderButton.click(esconderElemento);
+    }
 });
 
-/* Funcao para exibir elemento */
-function mostrarElemento (event)
-{
-    /* $(elemento).show () = Exibe elemento */
-    $("#janela").show ();
+// Funcao para exibir elemento
+function mostrarElemento() {
+    // $(elemento).show () = Exibe elemento
+    janela.show();
 }
 
-/* Funcao para esconder elemento */
-function esconderElemento (event)
-{
-    /* $(elemento).hode () = Esconde elemento */
-    $("#janela").hide ();
+// Funcao para esconder elemento
+function esconderElemento() {
+    // $(elemento).hode () = Esconde elemento
+    janela.hide();
 }

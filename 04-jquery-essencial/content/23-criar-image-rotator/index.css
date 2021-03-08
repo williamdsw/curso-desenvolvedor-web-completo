@@ -3,28 +3,28 @@
     Author     : William
 */
 
-#principal 
-{
-    position: absolute; 
-    height: 200px; 
-    clip: rect(0 200px 200px 0); 
+.content {
+    height: 15rem;
 }
 
-#janela 
-{ 
-    position: relative; 
-    height: 200px; 
+.principal {
+    position: absolute;
+    height: 200px;
+    clip: rect(0 200px 200px 0);
+}
+
+.janela {
+    position: relative;
+    height: 200px;
     top: 0;
     left: 0;
 }
 
-#janela img 
-{
+.janela img {
     float: left;
 }
 
-#info 
-{
-    position: absolute; 
+.info {
+    position: absolute;
     top: 300px;
 }

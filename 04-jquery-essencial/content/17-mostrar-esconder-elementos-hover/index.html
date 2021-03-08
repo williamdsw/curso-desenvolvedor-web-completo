@@ -1,15 +1,41 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> Mostrar / Esconder Elementos (Hover) </title>
-        <link rel="stylesheet" href="../css/17-mostrar-esconder-elementos-hover.css">
-        <script src="../jquery/jquery-3.2.1.min.js"></script>
-        <script src="../js/17-mostrar-esconder-elementos-hover.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mostrar / Esconder Elementos com Hover </title>
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="../../jquery/jquery-3.2.1.min.js" defer></script>
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <input type="button" id="btn_show_hide" value="Mostrar / Esconder"/>
+        <header>
+            <h1> Mostrar / Esconder Elementos com Hover </h1>
+        </header>
 
-        <div id="janela"></div>
+        <main>
+            <section>
+                <hr />
+            </section>
+            <article>
+                <button id="mostrarEsconderButton"> Mostrar / Esconder </button>
+                <div id="janela" class="janela"></div>
+            </article>
+            <section>
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../16-mostrar-esconder-elementos-click/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Mostrar / Esconder elementos com Click
+                    </a>
+                    <a href="../18-enviar-parametros-para-evento/">
+                        Enviar parâmetros para Evento
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

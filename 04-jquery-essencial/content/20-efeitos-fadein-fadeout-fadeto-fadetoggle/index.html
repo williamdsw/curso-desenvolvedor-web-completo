@@ -1,17 +1,43 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> Efeitos Básicos para Animação </title>
-        <link rel="stylesheet" href="../css/20-efeitos-fadein-fadeout-fadeto-fadetoggle.css">
-        <script src="../jquery/jquery-3.2.1.min.js"></script>
-        <script src="../js/20-efeitos-fadein-fadeout-fadeto-fadetoggle.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Efeitos Fade In / Fade Out / Fade To / Fade Toggle </title>
+        <link rel="stylesheet" href="../../css/global.css">
+		<link rel="stylesheet" href="index.css">
+        <script src="../../jquery/jquery-3.2.1.min.js" defer></script>
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <input type="button" id="btn_mostrar" value="Fade In"/>
-        <input type="button" id="btn_esconder" value="Fade Out"/>
-        <input type="button" id="btn_reverter" value="Fade Toggle"/>
+        <header>
+            <h1> Efeitos Fade In / Fade Out / Fade To / Fade Toggle </h1>
+        </header>
 
-        <div id="janela"></div>
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article>
+                <button id="fadeInButton"> Fade In </button>
+                <button id="fadeOutButton"> Fade Out </button>
+                <button id="fadeToggleButton"> Fade Toggle </button>
+                <div id="janela" class="janela"></div>
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../19-efeitos-basicos-animacao/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Efeitos básicos de Animação - Show | Hide | Toggle
+                    </a>
+                    <a href="../21-efeitos-slideup-slidedown-slidetoggle/">
+                        Efeitos Slide Up | Slide Down | Slide Toggle
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
