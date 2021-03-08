@@ -4,13 +4,11 @@
 */
 
 /* Modificando o ELEMENTO e nao a classe */
-h3
-{
+h3 {
     color: red;
 }
 
 /* Modificando a CLASSE e nao o elemento */
-.h3
-{
+.h3 {
     color: blue;
 }
