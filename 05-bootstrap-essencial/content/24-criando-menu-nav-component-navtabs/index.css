@@ -3,7 +3,10 @@
     Author     : William
 */
 
-div.container
-{
+div.container {
     padding-top: 50px;
+}
+
+.navbar-fixed-top {
+    position: relative;
 }
