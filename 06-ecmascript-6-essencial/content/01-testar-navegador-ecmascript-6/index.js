@@ -1,10 +1,12 @@
-"use strict";
+'use strict';
 
-var criarNomeCompleto = function (nome = "William", sobrenome = "Santos")
-{
-    var nomeCompleto = nome + " " + sobrenome;
-    console.log (nomeCompleto);
-    document.getElementById ("output").innerHTML = nomeCompleto;
+var output = document.querySelector('output');
+
+var criarNomeCompleto = function (nome = 'William', sobrenome = 'Santos') {
+    if (output) {
+        var nomeCompleto = `${nome} ${sobrenome}`;
+        output.innerHTML = nomeCompleto;
+    }
 };
 
-criarNomeCompleto ();
+criarNomeCompleto();

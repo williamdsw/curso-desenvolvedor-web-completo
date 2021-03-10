@@ -1,7 +1,10 @@
-"use strict";
+'use strict';
 
-/* Template String permite utilizar variaveis dentro de um texto sem concatenar */
+// Template String permite utilizar variaveis dentro de um texto sem concatenar
 let nome = "William";
 let template = `Boa tarde, ${nome}`;
+const output = document.querySelector('output');
 
-document.getElementById ("output").innerHTML = template;
+if (output) {
+    output.innerHTML = template;
+}

@@ -1,12 +1,14 @@
-"use strict";
+'use strict';
 
+var output = document.querySelector('output');
 var loto = 40;
 
-if (loto)
-{
-    /* Permite escrever com mesmo nome do var, e nao altera o valor da mesma */
+if (loto && output) {
+    // Permite escrever com mesmo nome do var, e nao altera o valor da mesma
     let loto = 10;
-    console.log ("Escopo Local : " + loto);
+    output.innerText += `Escopo Local: ${loto}\n`;
 }
 
-console.log ("Escopo Global : " + loto);
+if (output) {
+    output.innerText += `Escopo Global: ${loto}\n`;
+}

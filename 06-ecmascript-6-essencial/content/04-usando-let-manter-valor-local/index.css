@@ -3,8 +3,7 @@
     Author     : William
 */
 
-section div 
-{
+.content div {
     height: 100px;
     width: 100px;
     background-color: blue;
@@ -12,4 +11,8 @@ section div
     float: left;
     margin: 5px;
     cursor: pointer;
+}
+
+.before-prev-next-links {
+    clear: both;
 }

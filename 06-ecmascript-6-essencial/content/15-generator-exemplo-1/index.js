@@ -1,37 +1,41 @@
-"use strict";
+'use strict';
 
-/* "Generator" = Retorna uma funcao geradora */
-function* gen ()
-{
-    yield "String de Teste";
+const output = document.querySelector('output');
+
+function print(content) {
+    if (output) {
+        output.innerText += `${content} \n`;
+    }
+}
+
+// 'Generator' = Retorna uma funcao geradora
+function* gen() {
+    yield 'String de Teste';
     yield 2;
     yield 3.14;
 }
 
-let generator = gen ();
+let generator = gen();
 
-/* "next ()" = Retorna o proximo "yield" */
-console.log (generator.next ());
-console.log (generator.next ());
-console.log (generator.next ());
-console.log (generator.next ());
+// 'next ()' = Retorna o proximo 'yield'
+print(`${generator.next().value}`);
+print(`${generator.next().value}`);
+print(`${generator.next().value}`);
+print(`${generator.next().value}`);
 
-
-function* idCriador ()
-{
+function* idCriador() {
     let i = 0;
-    
-    while (true)
-    {
+
+    while (true) {
         yield i++;
     }
 }
 
-let criador = idCriador ();
+let criador = idCriador();
 
-/* "value" = Retorna o valor informado pelo "yield" */
-console.log (criador.next ().value);
-console.log (criador.next ().value);
-console.log (criador.next ().value);
-console.log (criador.next ().value);
-console.log (criador.next ().value);
+// 'value' = Retorna o valor informado pelo 'yield'
+print(`${criador.next().value}`);
+print(`${criador.next().value}`);
+print(`${criador.next().value}`);
+print(`${criador.next().value}`);
+print(`${criador.next().value}`);

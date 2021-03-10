@@ -1,10 +1,12 @@
-"use strict";
+'use strict';
 
-/* Arrow function => Permite "substituir" o function (e) ... */
-let exibeTimes = (times) =>
-{
-    console.log (times);
-    document.getElementById ("output").innerHTML = times.toString ();
-};
+const output = document.querySelector('output');
 
-exibeTimes (["São Paulo", "Palmeiras", "Santos", "Corinthians"]);
+// Arrow function => Permite 'substituir' o function (e) ...
+var exibeTimes = (times) => {
+    if (output) {
+        output.innerHTML = times.toString();
+    }
+}
+
+exibeTimes(['São Paulo', 'Palmeiras', 'Santos', 'Corinthians']);

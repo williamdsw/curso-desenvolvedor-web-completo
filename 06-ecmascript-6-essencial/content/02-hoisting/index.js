@@ -1,21 +1,23 @@
-"use strict";
+'use strict';
 
-/* Declaracao */
+// Declaracao
 var nome;
+var output = document.querySelector('output');
 
-/* Inicializacao */
-nome = "Maria";
+// Inicializacao
+nome = 'Maria';
 
-/* Utilizacao */
-console.log (nome);
-document.getElementById ("output").innerHTML = nome;
+// Utilizacao
+if (output) {
+    output.innerText += `${nome} \n`;
+}
 
-
-/* Declaracao */
-function somar (a, b)
-{
+// Declaracao
+function somar(a, b) {
     return a + b;
 }
 
-/* Utilizacao */
-console.log (somar (10, 15));
+// Utilizacao
+if (output) {
+    output.innerText += `10 + 15 = ${somar(10, 15)}`;
+}

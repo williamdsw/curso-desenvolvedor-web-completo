@@ -1,23 +1,28 @@
-"use strict";
+'use strict';
 
-/* "repeat (number)" = Funcao que permite repetir o conteudo a string 'n' vezes */
-let repetida = "Conteúdo ".repeat (10);
+const output = document.querySelector('output');
 
-console.log (repetida);
-document.getElementById ("output").innerHTML = repetida;
+// 'repeat (number)' = Funcao que permite repetir o conteudo a string 'n' vezes
+let repetida = 'Conteúdo '.repeat(10);
+
+if (output) {
+    output.innerText += `${repetida} \n`;
+}
 
 let estatisticas =
 {
-    gols (numero)
-    {
-        console.log ("Gol ".repeat (numero));
+    gols(numero) {
+        if (output) {
+            output.innerText += `${'Gol '.repeat(numero)} \n`;
+        }
     },
-    
-    desarmes (numero)
-    {
-        console.log ("Desarme ".repeat (numero));
+
+    desarmes(numero) {
+        if (output) {
+            output.innerText += `${'Desarme '.repeat(numero)} \n`;
+        }
     }
 };
 
-estatisticas.gols (5);
-estatisticas.desarmes (10);
+estatisticas.gols(5);
+estatisticas.desarmes(10);
