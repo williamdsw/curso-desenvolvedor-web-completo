@@ -1,83 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Organizando Checkbox e Radio Button </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
-        <div class="container">
+        <header>
+            <h1> Organizando Checkbox e Radio Button </h1>
+        </header>
 
-            <!-- checkboxes -->
-            
-            <!-- "checkbox" = Classe que customiza um checkbox com label -->
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="BR">
-                    Brasil
-                </label>
-            </div>
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<!-- Digite abaixo seu codigo -->
+                <div class="container">
 
-            <!-- "checkbox" = Classe que customiza um checkbox com label -->
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="PT">
-                    Portugal
-                </label>
-            </div>
-
-            <!-- "checkbox" = Classe que customiza um checkbox com label -->
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="AN">
-                    Angola
-                </label>
-            </div>
-
-            
-            <!-- radio buttons -->
-            
-            <!-- "radio" = Classe que customiza um radio button com label -->
-            <div class="radio">
-                <label>
-                    <input type="radio" id="rbtChile" name="pais" value="Chile">
-                    Chile
-                </label>
-            </div>
-
-            <!-- "radio" = Classe que customiza um radio button com label -->
-            <div class="radio">
-                <label>
-                    <input type="radio" id="rbtEspanha" name="pais" value="Espanha">
-                    Espanha
-                </label>
-            </div>
-
-            <!-- "radio" = Classe que customiza um radio button com label -->
-            <div class="radio">
-                <label>
-                    <input type="radio" id="rbtMexico" name="pais" value="Mexico">
-                    Mexico
-                </label>
-            </div>
-
-            <!-- "radio" = Classe que customiza um radio button com label -->
-            <div class="radio">
-                <label>
-                    <input type="radio" id="rbtArgentina" name="pais" value="Argentina">
-                    Argentina
-                </label>   
-            </div>
-        </div>
-        <!-- Fim do seu codigo -->
-
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+                    <!-- checkboxes -->
+                    
+                    <!-- "checkbox" = Classe que customiza um checkbox com label -->
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="BR">
+                            Brasil
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="PT">
+                            Portugal
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="AN">
+                            Angola
+                        </label>
+                    </div>
+                    
+                    <!-- radio buttons -->
+                    
+                    <!-- "radio" = Classe que customiza um radio button com label -->
+                    <div class="radio">
+                        <label>
+                            <input type="radio" id="chileRadioButton" name="pais" value="Chile">
+                            Chile
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" id="espanhaRadioButton" name="pais" value="Espanha">
+                            Espanha
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" id="mexicoRadioButton" name="pais" value="Mexico">
+                            Mexico
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" id="argentinaRadioButton" name="pais" value="Argentina">
+                            Argentina
+                        </label>   
+                    </div>
+                </div>
+                <!-- Fim do seu codigo -->
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../18-formularios-horizontais/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Formulários Horizontais
+                    </a>
+                    <a href="../20-definindo-tamanho-campo-texto/">
+                        Definindo Tamanho de Campos de Texto
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

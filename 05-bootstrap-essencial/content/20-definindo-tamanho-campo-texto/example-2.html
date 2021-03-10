@@ -1,43 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title> Definindo Tamanho de Campos de Texto </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Definindo Tamanho de Campos de Texto - Exemplo 2 </title>
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
+        <header>
+            <h1> Definindo Tamanho de Campos de Texto - Exemplo 2 </h1>
+        </header>
+
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<!-- Digite abaixo seu codigo -->
         
-        <div class="container">
-            <h2> Tamanho dos campos </h2>
-
-            <form class="form-horizontal">
-                
-                <!-- "form-group-lg" = Classe que indica que os elementos do form group serao largos -->
-                <div class="form-group form-group-lg">
-                    <label class="col-sm-2 control-label" for="txtInputLarge"> Large label </label>
-                    <div class="col-sm-10">
-                        <input type="text" id="txtInputLarge" class="form-control" placeholder="Large input">
-                    </div>
+                <div class="container">
+                    <h2> Tamanho dos campos </h2>
+        
+                    <form class="form-horizontal">
+                        
+                        <!-- "form-group-lg" = Classe que indica que os elementos do form group serao largos -->
+                        <div class="form-group form-group-lg">
+                            <label class="col-sm-2 control-label" for="txtInputLarge"> Large label </label>
+                            <div class="col-sm-10">
+                                <input type="text" id="txtInputLarge" class="form-control" placeholder="Large input">
+                            </div>
+                        </div>
+                        
+                        <!-- "form-group-sm" = Classe que indica que os elementos do form group serao pequenos -->
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-2 control-label" for="txtInputSmall"> Small label </label>
+                            <div class="col-sm-10">
+                                <input type="text" id="txtInputSmall" class="form-control" placeholder="Small input">
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                
-                <!-- "form-group-sm" = Classe que indica que os elementos do form group serao pequenos -->
-                <div class="form-group form-group-sm">
-                    <label class="col-sm-2 control-label" for="txtInputSmall"> Small label </label>
-                    <div class="col-sm-10">
-                        <input type="text" id="txtInputSmall" class="form-control" placeholder="Small input">
-                    </div>
+                <!-- Fim do seu codigo -->
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="index.html">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Exemplo 1
+                    </a>
+                    <a href="example-3.html">
+                        Exemplo 3
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
                 </div>
-            </form>
-        </div>
-        <!-- Fim do seu codigo -->
-
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+            </section>
+        </main>
     </body>
 </html>

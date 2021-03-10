@@ -1,52 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Criar Menu Dropdown </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+        <script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
-        <div class="container">
+        <header>
+            <h1> Criar Menu Dropdown </h1>
+        </header>
 
-            <!-- "dropdown" = Classe que aplica um menu dropdown -->
-            <div class="dropdown">
-                
-                <!-- "id='menu'" = Sera referenciado na ul -->
-                <!-- "data-toggle", "aria-haspopup", "aria-expanded" = Atributos necessarios -->
-                <button type="button" id="menu" class="btn btn-primary"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> 
-                    Menu Principal 
-                    
-                    <!-- "caret' = Classe que representa uma seta para baixo -->
-                    <span class="caret"></span>
-                </button>
-                
-                <!-- "dropdown-menu" = Classe que transforma o elemento em dropdown -->
-                <!-- "aria-labelledby" = Atributo necessario -->
-                <ul class="dropdown-menu" aria-labelledby="menu">
-                    <li><a href="#"> Home </a></li>
-                    <li><a href="#"> Info </a></li>
-                    <li><a href="#"> Special Events </a></li>
-                    
-                    <!-- "divider" = Classe que representa um divisor na lista -->
-                    <!-- "role" = Atributo necessario -->
-                    <li class="divider" role="separator"></li>
-                    <li><a href="#"> DVD </a></li>
-                    <li><a href="#"> Location </a></li>
-                    <li><a href="#"> Menu </a></li>
-                    <li><a href="#"> Review </a></li>
-                </ul>    
-            </div>
-        </div>
-        <!-- Fim do seu codigo -->
+        <main>
+            <section>
+                <hr />
+            </section>
+            <article class="content">
+                <!-- Digite abaixo seu codigo -->
+                <div class="container">
 
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+                    <!-- "dropdown" = Classe que aplica um menu dropdown -->
+                    <div class="dropdown">
+
+                        <!-- "id='menu'" = Sera referenciado na ul -->
+                        <!-- "data-toggle", "aria-haspopup", "aria-expanded" = Atributos necessarios -->
+                        <button type="button" id="menu" class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="true">
+                            Menu Principal
+
+                            <!-- "caret' = Classe que representa uma seta para baixo -->
+                            <span class="caret"></span>
+                        </button>
+
+                        <!-- "dropdown-menu" = Classe que transforma o elemento em dropdown -->
+                        <!-- "aria-labelledby" = Atributo necessario -->
+                        <ul class="dropdown-menu" aria-labelledby="menu">
+                            <li><a href="#"> Home </a></li>
+                            <li><a href="#"> Info </a></li>
+                            <li><a href="#"> Special Events </a></li>
+
+                            <!-- "divider" = Classe que representa um divisor na lista -->
+                            <!-- "role" = Atributo necessario -->
+                            <li class="divider" role="separator"></li>
+                            <li><a href="#"> DVD </a></li>
+                            <li><a href="#"> Location </a></li>
+                            <li><a href="#"> Menu </a></li>
+                            <li><a href="#"> Review </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Fim do seu codigo -->
+            </article>
+            <section>
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../21-input-group/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Input Group
+                    </a>
+                    <a href="../23-grupo-botoes/">
+                        Grupo de Botoes
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

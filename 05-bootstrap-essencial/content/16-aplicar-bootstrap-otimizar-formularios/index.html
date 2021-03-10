@@ -1,70 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Aplicar Bootstrap para Otimizar Formulários </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
-        
-        <div class="container">
-            <form>
-                
-                <!-- "form-group" = Classe que indica um conjunto de campos de formulario -->
-                <div class="form-group">
-                    <label for="txtNome"> Nome Completo </label>
-                    
-                    <!-- "form-control" = Classe que aplica estilo para campos de formulario -->
-                    <input type="text" id="txtNome" class="form-control" placeholder="Nome"/>
-                </div>
-                
-                <div class="form-group">
-                    <label for="txtEmail"> Email </label>
-                    <input type="text" id="txtEmail" class="form-control" placeholder="Email"/>
-                </div>
-                
-                <div class="form-group">
-                    <label for="txtSenha"> Senha </label>
-                    <input type="password" id="txtSenha" class="form-control" placeholder="Senha"/>  
-                </div>
-                
-                <div class="form-group">
-                    <label for="sltSelecao"> Prato preferido? </label>
-                    <select id="sltSelecao" class="form-control">
-                        <option> Escolha uma opção </option>
-                        <option> Feijoada </option>
-                        <option> Churrasco </option>
-                        <option> Sushi </option>
-                        <option> Pizza </option>
-                    </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="txtComentario"> Comentários </label>
-                    <textarea id="txtComentario" class="form-control"></textarea>
-                </div>
-                
-                <div class="checkbox">
-                    <label for="chkLista">
-                        <input type="checkbox" id="chkLista"> Inscrever-me na newsletter
-                    </label>
-                </div>
-                
-                <div class="form-group">
-                    <input type="submit" class="btn btn-primary pull-right" value="Enviar">
-                </div>
-            </form>
-        </div>
-        
-        <!-- Fim do seu codigo -->
+        <header>
+            <h1> Aplicar Bootstrap para Otimizar Formulários </h1>
+        </header>
 
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<!-- Digite abaixo seu codigo -->
+        
+                <div class="container">
+                    <form>
+                        
+                        <!-- "form-group" = Classe que indica um conjunto de campos de formulario -->
+                        <div class="form-group">
+                            <label for="inputNome"> Nome Completo </label>
+                            
+                            <!-- "form-control" = Classe que aplica estilo para campos de formulario -->
+                            <input type="text" id="inputNome" class="form-control" placeholder="Nome" required/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="emailInput"> Email </label>
+                            <input type="email" id="emailInput" class="form-control" placeholder="Email" required/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="senhaInput"> Senha </label>
+                            <input type="password" id="senhaInput" class="form-control" placeholder="Senha" required/>  
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="selecaoSelect"> Prato preferido? </label>
+                            <select id="selecaoSelect" class="form-control" required>
+                                <option> Escolha uma opção </option>
+                                <option> Feijoada </option>
+                                <option> Churrasco </option>
+                                <option> Sushi </option>
+                                <option> Pizza </option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="comentarioTextArea"> Comentários </label>
+                            <textarea id="comentarioTextArea" class="form-control"></textarea>
+                        </div>
+                        
+                        <div class="checkbox">
+                            <label for="listaCheckbox">
+                                <input type="checkbox" id="listaCheckbox"> Inscrever-me na newsletter
+                            </label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary pull-right">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Fim do seu codigo -->
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../15-adaptando-tamanho-video/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Adaptando Tamanho de Vídeos
+                    </a>
+                    <a href="../17-criar-formularios-inline/">
+                        Criar Formulários Inline
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

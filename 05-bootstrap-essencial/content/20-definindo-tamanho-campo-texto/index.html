@@ -1,77 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title> Definindo Tamanho de Campos de Texto </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Definindo Tamanho de Campos de Texto - Exemplo 1 </title>
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
+        <header>
+            <h1> Definindo Tamanho de Campos de Texto - Exemplo 1 </h1>
+        </header>
 
-        <div class="container">
-            <h2> Tamanho dos campos </h2>
-            
-            <form>
-                <h2> Caixa de texto </h2>
-                
-                <!-- "input-lg" = Classe que define tamanho largo para input -->
-                <div class="form-group">
-                    <input type="text" class="form-control input-lg" placeholder="Nome">
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<!-- Digite abaixo seu codigo -->
+
+                <div class="container">
+                    <h2> Tamanho dos campos </h2>
+                    
+                    <form>
+                        <h2> Caixa de texto </h2>
+                        
+                        <!-- "input-lg" = Classe que define tamanho largo para input -->
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Nome">
+                        </div>
+        
+                        <!-- tamanho default -->
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Telefone">
+                        </div>
+        
+                        <!-- "input-sm" = Classe que define tamanho pequeno para input -->
+                        <div class="form-group">
+                            <input type="email" class="form-control input-sm" placeholder="Email">
+                        </div>
+        
+                        <h2> Selecao </h2>
+                        
+                        <!-- "input-lg" = Classe que define tamanho largo para input -->
+                        <div class="form-group">
+                            <select class="form-control input-lg">
+                                <option> Escolha uma opção </option>
+                                <option> Feijoada </option>
+                                <option> Churrasco </option>
+                                <option> Sushi </option>
+                                <option> Pizza </option>                
+                            </select>
+                        </div>
+        
+                        <!-- tamanho default -->
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option> Escolha uma opção </option>
+                                <option> Feijoada </option>
+                                <option> Churrasco </option>
+                                <option> Sushi </option>
+                                <option> Pizza </option>                 
+                            </select>
+                        </div>
+        
+                        <!-- "input-sm" = Classe que define tamanho pequeno para input -->
+                        <div class="form-group">
+                            <select class="form-control input-sm">
+                                <option> Escolha uma opção </option>
+                                <option> Feijoada </option>
+                                <option> Churrasco </option>
+                                <option> Sushi </option>
+                                <option> Pizza </option>                 
+                            </select> 
+                        </div>
+                    </form>            
                 </div>
-
-                <!-- tamanho default -->
-                <div class="form-group">
-                    <input type="tel" class="form-control" placeholder="Telefone">
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../19-organizacao-checkbox-radiobutton/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Organizando Checkbox e Radio Button
+                    </a>
+                    <a href="example-2.html"> Exemplo 2 </a>
+                    <a href="example-3.html"> Exemplo 3 </a>
+                    <a href="../21-input-group/">
+                        Input Group
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
                 </div>
-
-                <!-- "input-sm" = Classe que define tamanho pequeno para input -->
-                <div class="form-group">
-                    <input type="email" class="form-control input-sm" placeholder="Email">
-                </div>
-
-                <h2> Selecao </h2>
-                
-                <!-- "input-lg" = Classe que define tamanho largo para input -->
-                <div class="form-group">
-                    <select class="form-control input-lg">
-                        <option> Escolha uma opção </option>
-                        <option> Feijoada </option>
-                        <option> Churrasco </option>
-                        <option> Sushi </option>
-                        <option> Pizza </option>                
-                    </select>
-                </div>
-
-                <!-- tamanho default -->
-                <div class="form-group">
-                    <select class="form-control">
-                        <option> Escolha uma opção </option>
-                        <option> Feijoada </option>
-                        <option> Churrasco </option>
-                        <option> Sushi </option>
-                        <option> Pizza </option>                 
-                    </select>
-                </div>
-
-                <!-- "input-sm" = Classe que define tamanho pequeno para input -->
-                <div class="form-group">
-                    <select class="form-control input-sm">
-                        <option> Escolha uma opção </option>
-                        <option> Feijoada </option>
-                        <option> Churrasco </option>
-                        <option> Sushi </option>
-                        <option> Pizza </option>                 
-                    </select> 
-                </div>
-            </form>            
-        </div>
-
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+            </section>
+        </main>
     </body>
 </html>

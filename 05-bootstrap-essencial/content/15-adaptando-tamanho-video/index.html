@@ -1,32 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Adaptando Tamanho de Vídeos </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
+        <header>
+            <h1> Adaptando Tamanho de Vídeos </h1>
+        </header>
 
-        <div class="container">
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<!-- Digite abaixo seu codigo -->
+
+                <div class="container">
             
-            <!-- "embed-responsive" = Classe que indica que a midia sera responsiva -->
-            <!-- "embed-responsive-16by9" = Classe que indica a resolucao da midia -->
-            <div class="embed-responsive embed-responsive-16by9">
-                
-                <!-- "embed-responsive-item" = Classe que indica o item (midia) -->
-                <iframe class="embed-responsive-item" width="545" height="409" src="https://www.youtube.com/embed/tAGnKpE4NCI" frameborder="0" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+                    <!-- "embed-responsive" = Classe que indica que a midia sera responsiva -->
+                    <!-- "embed-responsive-16by9" = Classe que indica a resolucao da midia -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        
+                        <!-- "embed-responsive-item" = Classe que indica o item (midia) -->
+                        <iframe class="embed-responsive-item" width="545" height="409" src="https://www.youtube.com/embed/tAGnKpE4NCI" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../14-alterando-estilo-tabelas/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Alterando Estilo das Tabelas
+                    </a>
+                    <a href="../16-aplicar-bootstrap-otimizar-formularios/">
+                        Aplicar Bootstrap para Otimizar Formulários
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
