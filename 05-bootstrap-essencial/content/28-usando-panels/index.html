@@ -1,120 +1,133 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Usando Painéis </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
+        <header>
+            <h1> Usando Painéis </h1>
+        </header>
 
-        <div class="container">
+        <main>
+            <section>
+                <hr/>
+            </section>
+            <article class="content">
+				<!-- Digite abaixo seu codigo -->
 
-            <!-- "panel" = Classe que define um painel (container) -->
-            <!-- "panel-default" = Classe que define estilo padrao para painel -->
-            <div class="panel panel-default">
+                <div class="container">
 
-                <!-- "panel-heading" = Classe que define o cabecalho do painel -->
-                <div class="panel-heading">
-                    
-                    <!-- "panel-title" = Classe que define estilo para o titulo do cabecalho do painel  -->
-                    <h2 class="panel-title"> Restaurant Review </h2>
+                    <!-- "panel" = Classe que define um painel (container) -->
+                    <!-- "panel-default" = Classe que define estilo padrao para painel -->
+                    <div class="panel panel-default">
+        
+                        <!-- "panel-heading" = Classe que define o cabecalho do painel -->
+                        <div class="panel-heading">
+                            
+                            <!-- "panel-title" = Classe que define estilo para o titulo do cabecalho do painel  -->
+                            <h2 class="panel-title"> Restaurant Review </h2>
+                        </div>
+        
+                        <!-- "panel-heading" = Classe que define o corpo do painel -->
+                        <div class="panel-body">
+                            <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
+                                have many reasons to celebrate. 
+                                Cafe Townsend has been a San Francisco favorite for more than 19 years, 
+                                and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
+                        </div>
+                        
+                        <!-- "panel-heading" = Classe que define o rodape do painel -->
+                        <div class="panel-footer">
+                            <a href="#"> Deixe sua mensagem </a>
+                        </div>
+                    </div>
+        
+                    <!-- Definindo um painel de sucesso ("panel panel-success") -->
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h2 class="panel-title"> Restaurant Review </h2>
+                        </div>
+                        <div class="panel-body">
+                            <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
+                                have many reasons to celebrate. 
+                                Cafe Townsend has been a San Francisco favorite for more than 19 years, 
+                                and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#"> Deixe sua mensagem </a>
+                        </div>
+                    </div>
+        
+                    <!-- Definindo um painel informativo ("panel panel-info") -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h2 class="panel-title"> Restaurant Review </h2>
+                        </div>
+                        <div class="panel-body">
+                            <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
+                                have many reasons to celebrate. 
+                                Cafe Townsend has been a San Francisco favorite for more than 19 years, 
+                                and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#"> Deixe sua mensagem </a>
+                        </div>
+                    </div>
+        
+                    <!-- Definindo um painel de alerta ("panel panel-warning") -->
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h2 class="panel-title"> Restaurant Review </h2>
+                        </div>
+                        <div class="panel-body">
+                            <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
+                                have many reasons to celebrate. 
+                                Cafe Townsend has been a San Francisco favorite for more than 19 years, 
+                                and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#"> Deixe sua mensagem </a>
+                        </div>
+                    </div>
+        
+                    <!-- Definindo um painel de perigo ("panel panel-perigo") -->
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h2 class="panel-title"> Restaurant Review </h2>
+                        </div>
+                        <div class="panel-body">
+                            <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
+                                have many reasons to celebrate. 
+                                Cafe Townsend has been a San Francisco favorite for more than 19 years, 
+                                and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#"> Deixe sua mensagem </a>
+                        </div>
+                    </div>
                 </div>
-
-                <!-- "panel-heading" = Classe que define o corpo do painel -->
-                <div class="panel-body">
-                    <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
-                        have many reasons to celebrate. 
-                        Cafe Townsend has been a San Francisco favorite for more than 19 years, 
-                        and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
+                <!-- Fim do seu codigo -->
+			</article>
+            <section>
+                <hr/>
+                <div class="prev-next-links">
+                    <a href="../27-alinhando-menu-direita/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Alinhando Menu para Direita
+                    </a>
+                    <a href="../29-adicionando-tabela-painel/">
+                        Adicionando Tabela no Painel
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
                 </div>
-                
-                <!-- "panel-heading" = Classe que define o rodape do painel -->
-                <div class="panel-footer">
-                    <a href="#"> Deixe sua mensagem </a>
-                </div>
-            </div>
-
-            <!-- Definindo um painel de sucesso ("panel panel-success") -->
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <h2 class="panel-title"> Restaurant Review </h2>
-                </div>
-                
-                <div class="panel-body">
-                    <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
-                        have many reasons to celebrate. 
-                        Cafe Townsend has been a San Francisco favorite for more than 19 years, 
-                        and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
-                </div>
-                
-                <div class="panel-footer">
-                    <a href="#"> Deixe sua mensagem </a>
-                </div>
-            </div>
-
-            <!-- Definindo um painel informativo ("panel panel-info") -->
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <h2 class="panel-title"> Restaurant Review </h2>
-                </div>
-                
-                <div class="panel-body">
-                    <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
-                        have many reasons to celebrate. 
-                        Cafe Townsend has been a San Francisco favorite for more than 19 years, 
-                        and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
-                </div>
-                
-                <div class="panel-footer">
-                    <a href="#"> Deixe sua mensagem </a>
-                </div>
-            </div>
-
-            <!-- Definindo um painel de alerta ("panel panel-warning") -->
-            <div class="panel panel-warning">
-                <div class="panel-heading">
-                    <h2 class="panel-title"> Restaurant Review </h2>
-                </div>
-                
-                <div class="panel-body">
-                    <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
-                        have many reasons to celebrate. 
-                        Cafe Townsend has been a San Francisco favorite for more than 19 years, 
-                        and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
-                </div>
-                
-                <div class="panel-footer">
-                    <a href="#"> Deixe sua mensagem </a>
-                </div>
-            </div>
-
-            <!-- Definindo um painel de perigo ("panel panel-perigo") -->
-            <div class="panel panel-danger">
-                <div class="panel-heading">
-                    <h2 class="panel-title"> Restaurant Review </h2>
-                </div>
-                
-                <div class="panel-body">
-                    <p> Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, 
-                        have many reasons to celebrate. 
-                        Cafe Townsend has been a San Francisco favorite for more than 19 years, 
-                        and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. </p>
-                </div>
-                
-                <div class="panel-footer">
-                    <a href="#"> Deixe sua mensagem </a>
-                </div>
-            </div>
-        </div>
-        <!-- Fim do seu codigo -->
-
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+            </section>
+        </main>
     </body>
 </html>

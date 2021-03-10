@@ -1,96 +1,120 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Adicionando Tabela no Painel </title>
-
-        <!-- libs / css -->
-        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+        <script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
+        <header>
+            <h1> Adicionando Tabela no Painel </h1>
+        </header>
 
-        <div class="container">
-            <div class="panel panel-info">
-                
-                <!-- cabecalho -->
-                <div class="panel-heading">
-                    <h2 class="panel-title"> Band Review </h2>
-                </div>
+        <main>
+            <section>
+                <hr />
+            </section>
+            <article class="content">
+                <!-- Digite abaixo seu codigo -->
 
-                <!-- conteudo -->
-                <div class="panel-body">
-                    <p> Nine Inch Nails, commonly abbreviated as NIN (stylized as NIИ), 
-                        is an American industrial rock band that was formed in Cleveland, 
-                        Ohio in 1988. 
-                        The band consists of producer and multi-instrumentalist Trent Reznor, 
-                        as well as English musician Atticus Ross. 
-                        Over the course of their three-decade existence, the band has signed with several major labels, 
-                        the most current being Capitol Records, under the name The Null Corporation. </p>
-                </div>
+                <div class="container">
+                    <div class="panel panel-info">
 
-                <!-- tabela responsiva -->
-                <div class="table-responsive">
-                    <table class="table">
-                        <caption> Awards </caption>
-                        
-                        <!-- headers -->
-                        <thead>
-                            <tr>
-                                <th scope="col"> Year </th>
-                                <th scope="col"> Nominee / work	 </th>
-                                <th scope="col"> Award </th>
-                                <th scope="col"> Result </th>
-                            </tr>
-                        </thead>
+                        <!-- cabecalho -->
+                        <div class="panel-heading">
+                            <h2 class="panel-title"> Band Review </h2>
+                        </div>
 
                         <!-- conteudo -->
-                        <tbody>
-                            <tr>
-                                <td> 1992 </td>
-                                <td> "Wish" </td>
-                                <td> Best Metal Performance </td>
-                                <td> Won </td>
-                            </tr>
-                            <tr>
-                                <td> 1995 </td>
-                                <td> "The Downward Spiral" </td>
-                                <td> Best Alternative Music Performance </td>
-                                <td> Nominated </td>
-                            </tr>
-                            <tr>
-                                <td> 1995 </td>
-                                <td> ""Happiness in Slavery" (from Woodstock '94 compilation)" </td>
-                                <td> Best Metal Performance </td>
-                                <td> Won </td>
-                            </tr>
-                            <tr>
-                                <td> 1996 </td>
-                                <td> "Hurt" </td>
-                                <td> Best Rock Song </td>
-                                <td> Nominated </td>
-                            </tr>
-                            <tr>
-                                <td> 1992 </td>
-                                <td> "Wish" </td>
-                                <td> Best Metal Performance </td>
-                                <td> Won </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                        <div class="panel-body">
+                            <p>
+                                Nine Inch Nails, commonly abbreviated as NIN (stylized as NIИ),
+                                is an American industrial rock band that was formed in Cleveland,
+                                Ohio in 1988.
+                                The band consists of producer and multi-instrumentalist Trent Reznor,
+                                as well as English musician Atticus Ross.
+                                Over the course of their three-decade existence, the band has signed with several major
+                                labels,
+                                the most current being Capitol Records, under the name The Null Corporation.
+                            </p>
+                        </div>
 
-                <div class="panel-footer">
-                    <a href=""> Deixe sua mensagem </a>    
-                </div>
-            </div>
-        </div>
-        <!-- Fim do seu codigo -->
+                        <!-- tabela responsiva -->
+                        <div class="table-responsive">
+                            <table class="table">
+                                <caption> Awards </caption>
 
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+                                <!-- headers -->
+                                <thead>
+                                    <tr>
+                                        <th scope="col"> Year </th>
+                                        <th scope="col"> Nominee / work </th>
+                                        <th scope="col"> Award </th>
+                                        <th scope="col"> Result </th>
+                                    </tr>
+                                </thead>
+
+                                <!-- conteudo -->
+                                <tbody>
+                                    <tr>
+                                        <td> 1992 </td>
+                                        <td> "Wish" </td>
+                                        <td> Best Metal Performance </td>
+                                        <td> Won </td>
+                                    </tr>
+                                    <tr>
+                                        <td> 1995 </td>
+                                        <td> "The Downward Spiral" </td>
+                                        <td> Best Alternative Music Performance </td>
+                                        <td> Nominated </td>
+                                    </tr>
+                                    <tr>
+                                        <td> 1995 </td>
+                                        <td> ""Happiness in Slavery" (from Woodstock '94 compilation)" </td>
+                                        <td> Best Metal Performance </td>
+                                        <td> Won </td>
+                                    </tr>
+                                    <tr>
+                                        <td> 1996 </td>
+                                        <td> "Hurt" </td>
+                                        <td> Best Rock Song </td>
+                                        <td> Nominated </td>
+                                    </tr>
+                                    <tr>
+                                        <td> 1992 </td>
+                                        <td> "Wish" </td>
+                                        <td> Best Metal Performance </td>
+                                        <td> Won </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="panel-footer">
+                            <a href=""> Deixe sua mensagem </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim do seu codigo -->
+            </article>
+            <section>
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../28-usando-panels/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Usando Painéis
+                    </a>
+                    <a href="../30-formando-listas/">
+                        Formando Listas
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

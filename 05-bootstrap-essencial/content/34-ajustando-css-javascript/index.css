@@ -4,7 +4,6 @@
 */
 
 /* Controlando altura maxima */
-div.carousel-inner
-{
+div.carousel-inner {
     max-height: 500px;
 }

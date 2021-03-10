@@ -4,15 +4,12 @@
 */
 
 /* Controlando altura maxima */
-div.carousel-inner
-{
+div.carousel-inner {
     max-height: 500px;
 }
 
-@media (min-width: 1170px)
-{
-    div.carousel-inner
-    {
+@media (min-width: 1170px) {
+    div.carousel-inner {
         max-height: 700px;
     }
 }

@@ -1,78 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Ajustando CSS e JS </title>
-
-        <!-- libs / css -->
-        <link type="text/css" rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="../css/34-ajustando-css-javascript.css">
-
+        <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="../../libs/jquery/jquery-1.10.1.min.js" defer></script>
+        <script src="../../libs/bootstrap/js/bootstrap.min.js" defer></script>
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <!-- Digite abaixo seu codigo -->
-        <!-- Necessario adicionar ID do carousel -->
-        <div id="galeria" class="carousel slide" data-ride="carousel">
+        <header>
+            <h1> Ajustando CSS e JS </h1>
+        </header>
 
-            <!-- "carousel-indicators" = Classe que indica os indicadores (bolinhas) do carousel  -->
-            <ol class="carousel-indicators">
-                
-                <!-- "active" = Classe que indica o indicador ativo -->
-                <!-- "data-target", "data-slide-to" = Atributos necessarios para funcionalidade  -->
-                <li class="active" data-target="#galeria" data-slide-to="0"></li>
-                <li data-target="#galeria" data-slide-to="1"></li>
-                <li data-target="#galeria" data-slide-to="2"></li>
-                <li data-target="#galeria" data-slide-to="3"></li>
-            </ol>
+        <main>
+            <section>
+                <hr />
+            </section>
+            <article class="content">
+                <!-- Digite abaixo seu codigo -->
+                <!-- Necessario adicionar ID do carousel -->
+                <div id="galeria" class="carousel slide" data-ride="carousel">
 
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="../imagens/20160312_142956.jpg" alt="imagem" class="img-responsive">
+                    <!-- "carousel-indicators" = Classe que indica os indicadores (bolinhas) do carousel  -->
+                    <ol class="carousel-indicators">
+
+                        <!-- "active" = Classe que indica o indicador ativo -->
+                        <!-- "data-target", "data-slide-to" = Atributos necessarios para funcionalidade  -->
+                        <li class="active" data-target="#galeria" data-slide-to="0"></li>
+                        <li data-target="#galeria" data-slide-to="1"></li>
+                        <li data-target="#galeria" data-slide-to="2"></li>
+                        <li data-target="#galeria" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../../imagens/20160312_142956.jpg" alt="imagem" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="../../imagens/20160312_153210.jpg" alt="imagem" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="../../imagens/20160313_154922.jpg" alt="imagem" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="../../imagens/20160313_180102.jpg" alt="imagem" class="img-responsive">
+                        </div>
+                    </div>
+
+                    <a href="#galeria" class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#galeria" class="right carousel-control" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
                 </div>
 
-                <div class="item">
-                    <img src="../imagens/20160312_153210.jpg" alt="imagem" class="img-responsive">
+                <div class="container">
+                    <h2> Nossa Viagem </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, in nam zril lobortis, vix in ubique tibique eligendi,
+                        mentitum volutpat usu in. Ius an mucius nonumes partiendo, nam eu quidam essent definiebas.
+                        Cu possit tincidunt disputando pro, ad vix quot essent utamur.
+                        Vel wisi conceptam ei, vis quis eius eu. Ut eam amet ancillae, usu ne dolor commune comprehensam.
+                        Sit offendit iudicabit assentior an, ad nam clita detraxit, id cum vidit atomorum.
+                        Cu mei illum verterem, liber constituam sed an. Mel et magna lobortis intellegat,
+                        maluisset reprehendunt nec ut. Et pro epicuri propriae consectetuer, in has dolorum laoreet
+                        singulis.
+                        At quo dicant eirmod saperet. Id vix iuvaret argumentum instructior, nam ex ceteros dissentias
+                        inciderint,
+                        agam viderer iuvaret sed te.
+                    </p>
                 </div>
-
-                <div class="item">
-                    <img src="../imagens/20160313_154922.jpg" alt="imagem" class="img-responsive">
+                <!-- Fim do seu codigo -->
+            </article>
+            <section>
+                <hr />
+                <div class="prev-next-links">
+                    <a href="../33-adicionando-paginacao/">
+                        &blacktriangleleft;&blacktriangleleft;
+                        Adicionando Paginação
+                    </a>
+                    <a href="../35-adicionando-media-query/">
+                        Adicionando Media Query
+                        &blacktriangleright;&blacktriangleright;
+                    </a>
                 </div>
-
-                <div class="item">
-                    <img src="../imagens/20160313_180102.jpg" alt="imagem" class="img-responsive">
-                </div>
-            </div>
-
-            <a href="#galeria" class="left carousel-control" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-
-            <a href="#galeria" class="right carousel-control" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>
-
-        <div class="container">
-            <h2> Nossa Viagem </h2>
-            <p>
-                Lorem ipsum dolor sit amet, in nam zril lobortis, vix in ubique tibique eligendi, 
-                mentitum volutpat usu in. Ius an mucius nonumes partiendo, nam eu quidam essent definiebas. 
-                Cu possit tincidunt disputando pro, ad vix quot essent utamur. 
-                Vel wisi conceptam ei, vis quis eius eu. Ut eam amet ancillae, usu ne dolor commune comprehensam. 
-                Sit offendit iudicabit assentior an, ad nam clita detraxit, id cum vidit atomorum. 
-                Cu mei illum verterem, liber constituam sed an. Mel et magna lobortis intellegat, 
-                maluisset reprehendunt nec ut. Et pro epicuri propriae consectetuer, in has dolorum laoreet singulis. 
-                At quo dicant eirmod saperet. Id vix iuvaret argumentum instructior, nam ex ceteros dissentias inciderint, 
-                agam viderer iuvaret sed te.
-            </p>
-        </div>
-        <!-- Fim do seu codigo -->
-
-        <!-- libs / js -->
-        <script src="../libs/jquery/jquery.js"></script>
-        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
-        <script src="../js/34-ajustando-css-javascript.js"></script>
+            </section>
+        </main>
     </body>
 </html>
